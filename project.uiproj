@@ -1,0 +1,6 @@
+{
+  "Name": "RIBU22GMX02_EmitPolizaCasaHabNovomar",
+  "ProjectType": "Process",
+  "Description": "Robot para la Emisión de Póliza Casa-Habitación NOVOMAR - GMX 64 Bits",
+  "MainFile": "Main.xaml"
+}

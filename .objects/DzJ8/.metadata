@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Utilizar Aplicación HC_Folio_",
+  "Type": "App",
+  "Id": "DzJ8wl6j502FTHgwpnEcOg",
+  "Reference": "_dJQ3SAXHUeHQ_gQSHYWdw/DzJ8wl6j502FTHgwpnEcOg",
+  "Created": "2026-06-01T19:52:36.331044Z",
+  "Updated": "2026-06-01T19:52:36.331044Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="P16lfQacA0evgB3-i1CGdQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="66, 255, 22, 18" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Filtro manual' role='outline' /&gt;&lt;ctrl name='NO' role='check box' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Filtro manual' role='outline' /&gt;&lt;ctrl name='NO' role='check box' automationid='' /&gt;" Guid="d6dcf82e-2b67-4947-a917-0326c4ae6292" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAWCAYAAADeiIy1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADASURBVEhL7ZTRDcQgCECZi4GcwxGYxmUchgNPe2jlLjFnv3xJE7XCk0gL/BBHtMxzohhjHe5lIkocABhCqvOGriNTrlMlBQbdWx/sXvY4ImRE4N41iIrEijOTxHgyV0SJREYS3rCid9Jb0VliIMjOO75IEqZgT2hEbkI9gK3yw1eRO1ZRV23DqVT4IdKp3EWJ3FqR0k5p1/98RxclgbawWS9dZ5Nq3ErXDfsz4dDOwvAdze6mMRHt4fy9lzmiRZhf5OtAVQLyS6gAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" SelectionStrategy="AA" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="32, 196, 212, 17" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Escriba el nombre del campo para buscar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Escriba el nombre del campo para buscar' role='editable text' automationid='' /&gt;" Guid="4b977815-61c6-4c7c-a9ec-a137b81f925b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANgAAAAVCAYAAAAkViCHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE6SURBVHhe7de9EcIgGIBhd/MchzlY4+tTasMKWqXLCNkCIeSHYEKMFwpz73NHIUZs8h5wsQCK6QKrqorBYBQYY2AAjkdgQEEEBhSUBFZbUcqqaEjdfwVgt4XAtDVt/7E1VitxswB+kQ/s4zOAPfKB1WLVeEbMxddao5eOlcvztUxz6foi2s2za+IcNu5g8YueCWwW4iDEpacfLIjXDP+dfx74L1/cweIAVgLrnkviyN3ffJBjxGvrA/9v4w4WdqGwOWUC67XGH+/659cCm8379QkM57VjB4tjc7pd6DMIH1nYyVaOiP532rhvndn6BIbz2biDJS98fLQTmYKYHfnSe9swP8QZwuvmtFuDHQwnlgQG4EgEBhREYEAhr9eTwIASmqaxt9uVwIASfGCPx53AgJLGwBgMxtGjsm8qOEVL/WOcMwAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="abc2749e416a3bd4bfc22bd2184db908.png" xmlns="">abc2749e416a3bd4bfc22bd2184db908.png</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Utilizar Aplicación HC_Folio_",
+  "Type": "Screen",
+  "Id": "hhvDA0q99UahJc8oL-UTTQ",
+  "Reference": "_dJQ3SAXHUeHQ_gQSHYWdw/hhvDA0q99UahJc8oL-UTTQ",
+  "ParentRef": "_dJQ3SAXHUeHQ_gQSHYWdw/iuLZzYYad0yZDugIteXN0w",
+  "Created": "2026-06-01T19:52:36.376606Z",
+  "Updated": "2026-06-01T19:52:36.376606Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

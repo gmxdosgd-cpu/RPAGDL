@@ -1,0 +1,1 @@
+{"Target":{"Guid":"21813bcc-6e45-47d0-b0ec-e45f28848131","Ancestry":[{"IsSelected":true,"Selector":"<wnd app=\"excel.exe\" cls=\"Net UI Tool Window\" idx=\"*\"/>","ValidAttributes":{"app":"excel.exe","cls":"Net UI Tool Window","aastate":"focusable"}},{"IsSelected":true,"Selector":"<wnd cls=\"NetUIHWND\"/>","ValidAttributes":{"cls":"NetUIHWND","aastate":"focused, focusable"}}]}}
