@@ -156,7 +156,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="Esta secuencia contiene las actividades principales para el generador de Expediente Digital" DisplayName="3.0) GeneradorDeExpedienteDigital" sap:VirtualizedContainerService.HintSize="1259,2223" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Esta secuencia contiene las actividades principales para el generador de Expediente Digital" DisplayName="3.0) GeneradorDeExpedienteDigital" sap:VirtualizedContainerService.HintSize="1913,4795" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="Configuracion" />
       <Variable x:TypeArguments="sd:DataTable" Name="ConsolidadoNCWM_dt" />
@@ -194,7 +194,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch sap2010:Annotation.AnnotationText="Try Catch 3.0) GeneradorDeExpedienteDigital" DisplayName="Try Catch 3.0) GeneradorDeExpedienteDigital" sap:VirtualizedContainerService.HintSize="584,2169" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+    <TryCatch sap2010:Annotation.AnnotationText="Try Catch 3.0) GeneradorDeExpedienteDigital" DisplayName="Try Catch 3.0) GeneradorDeExpedienteDigital" sap:VirtualizedContainerService.HintSize="666,4741" sap2010:WorkflowViewState.IdRef="TryCatch_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -202,14 +202,14 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="Try Sequence  3.0) GeneradorDeExpedienteDigital" sap:VirtualizedContainerService.HintSize="582,1585" sap2010:WorkflowViewState.IdRef="Sequence_12">
+        <Sequence DisplayName="Try Sequence  3.0) GeneradorDeExpedienteDigital" sap:VirtualizedContainerService.HintSize="664,4157" sap2010:WorkflowViewState.IdRef="Sequence_12">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Assign DisplayName="Secuencia_str Nombre de la Secuencia a ejecutar" sap:VirtualizedContainerService.HintSize="548,175" sap2010:WorkflowViewState.IdRef="Assign_3">
+          <Assign DisplayName="Secuencia_str Nombre de la Secuencia a ejecutar" sap:VirtualizedContainerService.HintSize="630,175" sap2010:WorkflowViewState.IdRef="Assign_3">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[Secuencia_str]</OutArgument>
             </Assign.To>
@@ -217,7 +217,7 @@
               <InArgument x:TypeArguments="x:String">3.0) GeneradorDeExpedienteDigital</InArgument>
             </Assign.Value>
           </Assign>
-          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke ManejoDeMensajesErrores" sap:VirtualizedContainerService.HintSize="548,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="90) CommonFlows\ManejoDeMensajesErrores.xaml">
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke ManejoDeMensajesErrores" sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="90) CommonFlows\ManejoDeMensajesErrores.xaml">
             <ui:InvokeWorkflowFile.Arguments>
               <InArgument x:TypeArguments="x:String" x:Key="i_Mensaje_str">["___INI: "+Secuencia_str]</InArgument>
               <InArgument x:TypeArguments="x:String" x:Key="i_TipoMensaje">i</InArgument>
@@ -230,7 +230,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:InvokeWorkflowFile>
-          <Sequence sap2010:Annotation.AnnotationText="3.0.0) Leer Archivo io_ArchivoSolicitudesDelDia_str" DisplayName="3.0.0) Leer Archivo io_ArchivoSolicitudesDelDia_str" sap:VirtualizedContainerService.HintSize="548,573" sap2010:WorkflowViewState.IdRef="Sequence_664">
+          <Sequence sap2010:Annotation.AnnotationText="3.0.0) Leer Archivo io_ArchivoSolicitudesDelDia_str" DisplayName="3.0.0) Leer Archivo io_ArchivoSolicitudesDelDia_str" sap:VirtualizedContainerService.HintSize="630,573" sap2010:WorkflowViewState.IdRef="Sequence_664">
             <Sequence.Variables>
               <Variable x:TypeArguments="sd:DataTable" Name="DatosParaHC_tbl" />
               <Variable x:TypeArguments="sd:DataTable" Name="EspecifParaHC_tbl" />
@@ -311,7 +311,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
           </Sequence>
-          <Sequence sap2010:Annotation.AnnotationText="3.0.2) Procesar cada Row de ArchivoSolicitudesDelDia_dt con Número de Póliza" DisplayName="3.0.2) Procesar cada Row de ArchivoSolicitudesDelDia_dt con Número de Póliza" sap:VirtualizedContainerService.HintSize="548,552" sap2010:WorkflowViewState.IdRef="Sequence_665">
+          <Sequence sap2010:Annotation.AnnotationText="3.0.2) Procesar cada Row de ArchivoSolicitudesDelDia_dt con Número de Póliza" DisplayName="3.0.2) Procesar cada Row de ArchivoSolicitudesDelDia_dt con Número de Póliza" sap:VirtualizedContainerService.HintSize="630,3124" sap2010:WorkflowViewState.IdRef="Sequence_665">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -319,15 +319,15 @@
                 <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ArchivoSolicitudesDelDia_dt]" DisplayName="Para cada fila de la tabla de datos" sap:VirtualizedContainerService.HintSize="514,381" sap2010:WorkflowViewState.IdRef="ForEachRow_15">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ArchivoSolicitudesDelDia_dt]" DisplayName="Para cada fila de la tabla de datos" sap:VirtualizedContainerService.HintSize="596,2953" sap2010:WorkflowViewState.IdRef="ForEachRow_15">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRowSolicitud" />
                   </ActivityAction.Argument>
-                  <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="334,147" sap2010:WorkflowViewState.IdRef="TryCatch_9">
+                  <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="594,2719" sap2010:WorkflowViewState.IdRef="TryCatch_9">
                     <TryCatch.Try>
-                      <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="504,683" sap2010:WorkflowViewState.IdRef="Sequence_661">
+                      <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="592,1722" sap2010:WorkflowViewState.IdRef="Sequence_661">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:String" Name="Apellido1_str" />
                           <Variable x:TypeArguments="x:String" Name="Apellido2_str" />
@@ -346,16 +346,16 @@
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <If Condition="[CurrentRowSolicitud(&quot;POLIZA_NUEVA&quot;).ToString.Trim.Length&gt;5 AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ESTATUS&quot;).ToString.Trim) AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ERROR&quot;).ToString.Trim)]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="470,623" sap2010:WorkflowViewState.IdRef="If_153">
+                        <If Condition="[CurrentRowSolicitud(&quot;POLIZA_NUEVA&quot;).ToString.Trim.Length&gt;5 AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ESTATUS&quot;).ToString.Trim) AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ERROR&quot;).ToString.Trim)]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="558,1662" sap2010:WorkflowViewState.IdRef="If_153">
                           <If.Then>
-                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,403" sap2010:WorkflowViewState.IdRef="Sequence_747">
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="556,1442" sap2010:WorkflowViewState.IdRef="Sequence_747">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="434,123" sap2010:WorkflowViewState.IdRef="WriteLine_60" Text="[&quot;CurrentRowSolicitud =&quot;+CurrentRowSolicitud(&quot;FOLIO_SOLICITUD&quot;).ToString]" />
-                              <Assign DisplayName="MensajeDeError_str" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_757">
+                              <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="522,123" sap2010:WorkflowViewState.IdRef="WriteLine_60" Text="[&quot;CurrentRowSolicitud =&quot;+CurrentRowSolicitud(&quot;FOLIO_SOLICITUD&quot;).ToString]" />
+                              <Assign DisplayName="MensajeDeError_str" sap:VirtualizedContainerService.HintSize="522,175" sap2010:WorkflowViewState.IdRef="Assign_757">
                                 <Assign.To>
                                   <OutArgument x:TypeArguments="x:String">[MensajeDeError_str]</OutArgument>
                                 </Assign.To>
@@ -365,13 +365,13 @@
                                   </InArgument>
                                 </Assign.Value>
                               </Assign>
-                              <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Always" DisplayName="Utilizar Navegador Chrome: GENERADOR DE EXPEDIENTE DIGITAL(GEDi)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" OutUiElement="[WebGenExp_win]" ScopeGuid="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Version="V2" WindowResize="Maximize">
+                              <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Always" DisplayName="Utilizar Navegador Chrome: GENERADOR DE EXPEDIENTE DIGITAL(GEDi)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522,1036" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" OutUiElement="[WebGenExp_win]" ScopeGuid="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Version="V2" WindowResize="Maximize">
                                 <uix:NApplicationCard.Body>
                                   <ActivityAction x:TypeArguments="x:Object">
                                     <ActivityAction.Argument>
                                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                     </ActivityAction.Argument>
-                                    <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="518,4485" sap2010:WorkflowViewState.IdRef="Sequence_728">
+                                    <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="520,833" sap2010:WorkflowViewState.IdRef="Sequence_728">
                                       <Sequence.Variables>
                                         <Variable x:TypeArguments="x:Boolean" Name="ExpedienteProcesado_bln" />
                                       </Sequence.Variables>
@@ -381,17 +381,17 @@
                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="484,57" sap2010:WorkflowViewState.IdRef="Sequence_725">
+                                      <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="486,457" sap2010:WorkflowViewState.IdRef="Sequence_725">
                                         <Sequence.Variables>
                                           <Variable x:TypeArguments="x:String" Name="PasswordGenExpDig_str" />
                                         </Sequence.Variables>
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="526,3190" sap2010:WorkflowViewState.IdRef="TryCatch_12">
+                                        <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="452,365" sap2010:WorkflowViewState.IdRef="TryCatch_12">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -399,14 +399,14 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                           <TryCatch.Try>
-                                            <Sequence DisplayName="CASO CUANDO NO ESTA LOG-IN" sap:VirtualizedContainerService.HintSize="524,2915" sap2010:WorkflowViewState.IdRef="Sequence_755">
+                                            <Sequence DisplayName="CASO CUANDO NO ESTA LOG-IN" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_755">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="10" DeselectAfter="True" DisplayName="Escribir en 'Sign in'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="490,246" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Text="[out_Config(&quot;UsuarioGenExpDig&quot;).ToString]" Version="V1">
+                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="10" DeselectAfter="True" DisplayName="Escribir en 'Sign in'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Text="[out_Config(&quot;UsuarioGenExpDig&quot;).ToString]" Timeout="5" Version="V1">
                                                 <uix:NTypeInto.Target>
                                                   <uix:TargetAnchorable BrowserURL="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=ee7d8f13-4653-4e7b-80a7-826b447f311c&amp;redirect_uri=https%3A%2F%2Fewsp.gmx.com.mx%2FGEDIV2%2FStarting.aspx&amp;response_mode=form_post&amp;response_type=id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DletpF4rOuJTQ3XOc_RfViGsEcF0IgSpyqGlBaEcMszx_Wc9dZIm02fiPcrdDB3PjpYqkAptB56rv2tU3HhQHw9LI_ujRjo5v2U92oVHFezbqSIjg7lYQ9Lfy0goP3act4qyQ4BVDaEXidr_7PiHZX5Z0ocaw9OIAZRDsL3ufeH4dVS-Njlmm-k0wu6NqWEHxbhXghJvS8dfHhD-IcO_zCbbGcsh14xaLsXQt6wbyhkQ&amp;nonce=638682614938362843.ZWM1MDlmZDQtMWUzYS00N2EyLThhNjctMTcwZmFhODc2MGJlZGM3YjBiOTktNWJkOC00NDcyLWI0NDItNDQ5NTY3MTVlNDZh&amp;x-client-SKU=ID_NET472&amp;x-client-ver=6.19.0.0&amp;sso_reload=true" DesignTimeRectangle="752, 495, 435, 45" DesignTimeScaleFactor="1.25" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='i0116' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='i0116' tag='INPUT' type='email' class='form-control ltr_override input ext-input text-box ext-text-box' placeholder='Correo electrónico, teléfono o Skype' aaname='' /&gt;" Guid="7feec732-874a-4fdd-a479-8f6af6a920f5" InformativeScreenshot="69f3c82b4f2a76be903c7862205f608a.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Iniciar sesión en la cuenta' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" WaitForReadyArgument="Complete">
                                                     <uix:TargetAnchorable.Anchors>
@@ -417,7 +417,13 @@
                                                   </uix:TargetAnchorable>
                                                 </uix:NTypeInto.Target>
                                               </uix:NTypeInto>
-                                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="490,649" sap2010:WorkflowViewState.IdRef="TryCatch_13">
+                                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="TryCatch_13">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
                                                 <TryCatch.Try>
                                                   <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Clic 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,162" sap2010:WorkflowViewState.IdRef="NClick_47" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Version="V1">
                                                     <uix:NClick.Target>
@@ -443,13 +449,13 @@
                                                       <ActivityAction.Argument>
                                                         <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                                       </ActivityAction.Argument>
-                                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="449.6,271.2" sap2010:WorkflowViewState.IdRef="Sequence_771">
+                                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_771">
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_38" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Version="V1">
+                                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_38" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Version="V1">
                                                           <uix:NClick.Target>
                                                             <uix:TargetAnchorable BrowserURL="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=ee7d8f13-4653-4e7b-80a7-826b447f311c&amp;redirect_uri=https%3A%2F%2Fewsp.gmx.com.mx%2FGEDIV2%2FStarting.aspx&amp;response_mode=form_post&amp;response_type=id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DbDGNVxByF34WSh6LgbnvhATmrPUQoEzBbwszOKn47s9BFfuJWTmNOh3bccuvq4oZYIU2e31tP2mPgL-7-KwrEG3-1Jz8Uyu2lxEZGRT-hshoMIHHSnl2gJQvUM05-hj0d0_F1U1J1oM8PRDeucLSNHU3oKltHNZVlCrx3gFeQM5guuljJk8zCOnn4a4AS0Nnhi1A_eldaZpCCXGC8V4Ai8LFwgK5BA4ZV5-hFUK8EvY&amp;nonce=638325647307021694.Y2Y0MmY5YWUtYjM0Mi00YjVlLWI3MjQtOTI1ZGUyZGNkZDFjZjFmMWFhOTgtOWU1My00OWRkLWIzOGUtZGM2MTc0MTQwNjA5&amp;x-client-SKU=ID_NET472&amp;x-client-ver=6.19.0.0&amp;sso_reload=true" DesignTimeRectangle="1036, 627, 108, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='win-button button_primary button ext-button primary ext-primary' aaname='Next' check:text='Next' /&gt;" Guid="20d30aaa-0e2e-4ec3-8a8d-9a2f2f074b78" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHAAAAAkCAYAAABR/76qAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGuSURBVHhe7ZU9SgNBAIVzNu9hbe0VPIAnEA9gY2NhYZlKEEGQNLEQRZAIQQP+48gLfsu42WBjZJ+8Dx4zOz+7MN/OzKAEayLQnEbgYOMwMQpEoGkgAk0DEWgaiEDTQASaBiLQNBCBpoEINA1EoGkgAk0DFgK3Dsbl5e2jnN/MFvrWto/L9fS57AyvFvr+c8BKoGiL+k2BTj8D2AiczF7LyeV9eXh6L+u7Z01fBH7RNagvQeDm3mi+wPVR2rXotIHqapN4/QBHo7tmrOpq2z+9bXa5UF3fZVzfAlYCJUB1LTiL2xbIcy1JwpGucexiRe9d9q4+B+wE6lly2FXtRVdJ37L5kql3KD/t5r4GLAWq5ChsL7rauqiPRJV6ZifynQhcUdoCFS2yBHAv1gLbO7AdfoAI/KN0CVR0/F1MHr8tOmLbY+twhFLSHoEryjKBHIWCRUdCfbdp3nA8nddrwZqvusp6bi21rwFrgQp3Xr1rNE5igPsP4fVYza93rPrqOYzrW8BCYLIYiEDTQASaBiLQNBCBpoEINA1EoGkgAk0DEWgaiEDTQCMweBKB1pTyCaoVi2+JkRnCAAAAAElFTkSuQmCC" InformativeScreenshot="f22c9e4fbf9e6c3ad998ec4a4e35c98d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="FuzzySelector, Image" WaitForReadyArgument="Complete">
                                                               <uix:TargetAnchorable.Anchors>
@@ -465,10 +471,16 @@
                                                   </Catch>
                                                 </TryCatch.Catches>
                                                 <TryCatch.Finally>
-                                                  <Sequence DisplayName="Finalmente" sap2010:WorkflowViewState.IdRef="Sequence_773" />
+                                                  <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_773">
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
+                                                  </Sequence>
                                                 </TryCatch.Finally>
                                               </TryCatch>
-                                              <Assign DisplayName="PasswordGenExpDig_str" sap:VirtualizedContainerService.HintSize="489.6,82.4" sap2010:WorkflowViewState.IdRef="Assign_748">
+                                              <Assign DisplayName="PasswordGenExpDig_str" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_748">
                                                 <Assign.To>
                                                   <OutArgument x:TypeArguments="x:String">[PasswordGenExpDig_str]</OutArgument>
                                                 </Assign.To>
@@ -476,9 +488,15 @@
                                                   <InArgument x:TypeArguments="x:String">[out_Config("PasswordGenExpDig").ToString]</InArgument>
                                                 </Assign.Value>
                                               </Assign>
-                                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="489.6,932" sap2010:WorkflowViewState.IdRef="TryCatch_14">
+                                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="TryCatch_14">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
                                                 <TryCatch.Try>
-                                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="10" DisplayName="Escribir en 'Enter password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="333.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_23" InteractionMode="DebuggerApi" IsPassword="True" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Text="Ros34238" Version="V1">
+                                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="10" DisplayName="Escribir en 'Enter password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,214" sap2010:WorkflowViewState.IdRef="NTypeInto_23" InteractionMode="DebuggerApi" IsPassword="True" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Text="Ros34238" Version="V1">
                                                     <uix:NTypeInto.Target>
                                                       <uix:TargetAnchorable BrowserURL="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=ee7d8f13-4653-4e7b-80a7-826b447f311c&amp;redirect_uri=https%3A%2F%2Fewsp.gmx.com.mx%2FGEDIV2%2FStarting.aspx&amp;response_mode=form_post&amp;response_type=id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DJcsZLeOaRRdYs02pzCnP4bFOqjMP8BbrJqSJOA6_gGsfxKd5wiwxYIgFuV902g9dL_RCqk_LE_OQ059jnROiO7YxqZxoy3IiHa_dZ1FHX_JjQRlvHW_VrZZWtNyFXDEPWvK_hPaTD8WOEKg7u0bep2wJ9fx0m9AHkyWGLserJPE-Gr3-QUlMUAyEdo5lHcohf-h9r48yhIOSXxCDCM8dhcYky8FrG6G6SjRiwSsm_7Y&amp;nonce=638717810386123845.ZDhmYTVjMmUtNjJjZC00NDgwLWI2OTUtYjhmNzRmZGQ4NzgxZTQ1MWFkMGItMWJhNC00NDgxLWFiM2MtZGZkMzRmYjMwN2Y4&amp;x-client-SKU=ID_NET472&amp;x-client-ver=6.19.0.0&amp;sso_reload=true" DesignTimeRectangle="752, 582, 435, 45" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='i0118' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='i0118' tag='INPUT' type='password' class='form-control input ext-input text-box ext-text-box' placeholder='Contraseña' aaname='' /&gt;" Guid="a71c6359-10e7-4dc5-a683-ff22aa8409d8" InformativeScreenshot="16bda91e33b45a272da57babafad6209.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Iniciar sesión en la cuenta' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" WaitForReadyArgument="Complete">
                                                         <uix:TargetAnchorable.Anchors>
@@ -502,13 +520,13 @@
                                                       <ActivityAction.Argument>
                                                         <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                                       </ActivityAction.Argument>
-                                                      <Sequence sap:VirtualizedContainerService.HintSize="449.6,330.4" sap2010:WorkflowViewState.IdRef="Sequence_772">
+                                                      <Sequence DisplayName="Capturar" sap:VirtualizedContainerService.HintSize="450,297" sap2010:WorkflowViewState.IdRef="Sequence_772">
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="1" DisplayName="Escribir en 'Enter password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_19" IsPassword="True" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Text="Ros34238" Version="V1">
+                                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="1" DisplayName="Escribir en 'Enter password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,237" sap2010:WorkflowViewState.IdRef="NTypeInto_19" IsPassword="True" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Text="Ros34238" Version="V1">
                                                           <uix:NTypeInto.Target>
                                                             <uix:TargetAnchorable BrowserURL="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=ee7d8f13-4653-4e7b-80a7-826b447f311c&amp;redirect_uri=https%3A%2F%2Fewsp.gmx.com.mx%2FGEDIV2%2FStarting.aspx&amp;response_mode=form_post&amp;response_type=id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DbDGNVxByF34WSh6LgbnvhATmrPUQoEzBbwszOKn47s9BFfuJWTmNOh3bccuvq4oZYIU2e31tP2mPgL-7-KwrEG3-1Jz8Uyu2lxEZGRT-hshoMIHHSnl2gJQvUM05-hj0d0_F1U1J1oM8PRDeucLSNHU3oKltHNZVlCrx3gFeQM5guuljJk8zCOnn4a4AS0Nnhi1A_eldaZpCCXGC8V4Ai8LFwgK5BA4ZV5-hFUK8EvY&amp;nonce=638325647307021694.Y2Y0MmY5YWUtYjM0Mi00YjVlLWI3MjQtOTI1ZGUyZGNkZDFjZjFmMWFhOTgtOWU1My00OWRkLWIzOGUtZGM2MTc0MTQwNjA5&amp;x-client-SKU=ID_NET472&amp;x-client-ver=6.19.0.0&amp;sso_reload=true" DesignTimeRectangle="794, 563, 348, 36" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='form-control input ext-input text-box ext-text-box' aaname='' /&gt;" Guid="a6164bf9-59b2-4248-a777-ab2e53449e60" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAWAAAAAoCAYAAADAHSD5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKQSURBVHhe7doxTuNQFIbRmdVmI2wAalpKSqQp6OjoWAAVFQugovDoR9zoYhxIlYvQOdKTY/s9x2k+PNb8WQAYIcAAQwQYYIgAAwwRYIAhAgwwRIABhggwwBABBhgiwABDBBhgiAADDBFggCECDDBEgAGGfAjwzc3NstvtPozHx8f3s79Hfuf9/f37HsCMTwHuYXp+fl7Ozs5+XYQFGPgJvgxwZD/HfxMBBn6CowJ8dXW1vL6+7p+I6/VED3POZ16dqzWRJ+g6npH9jD6n1vdrrufkXvp1+r2+vLwsFxcXy8PDw9s2I8ci16w1+bz1OwFO7dsAV7AicUuEo4JXryf6vMjchDPzz8/P9+uyfXp6elt/eXn56Xrr4NY1s+3nan7db+338MZ6Xf0xEGBg2pcBTqzyxFuRXOvz12tL1ia0PYqRICaMtaaedivKdT7Hs98jXmpN5q6DHIfWHbpXgFP6FOD6p3rG+mky1nN6QLfWVEj73JL9XC+yzTVqm2tkXbbZ37qXhLXinpE5mVsOrct3CDAw7dtXEKUCV8GMrfnZT2z7vKj1/Ym6ApptxbainHjW023/3B0T4K11X/1OgFM5OsBbMTs0PzGssK5VYKPm5X3x7e3t27Gsub6+Xu7u7vbXzrFjX0H0AG+ty9ysEWBg2tEBXscsoavXColagllx7nMzr0cx31EBjnzurycqkOt3z5nX/wCsg7sV4LpW/758z9brEIBTOzrAUfGqVwx9fj7XufVrhkP/dS0SzO9iW/p3ZPTYbgU4KsK1Jvfb7xtgyocAA3A6AgwwRIABhggwwBABBhgiwABDBBhgiAADDBFggCECDDBEgAGG7AP8d/fPMAzDOMEonoABhggwwIhl+Q9dAaEPvntM/AAAAABJRU5ErkJggg==" InformativeScreenshot="9750d448f0dccfd972c8e0b237dcdb7e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="FuzzySelector, Image" WaitForReadyArgument="Complete">
                                                               <uix:TargetAnchorable.Anchors>
@@ -524,7 +542,7 @@
                                                   </Catch>
                                                 </TryCatch.Catches>
                                               </TryCatch>
-                                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Clic 'Sign in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="489.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_24" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Version="V1">
+                                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Clic 'Sign in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_24" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Version="V1">
                                                 <uix:NClick.Target>
                                                   <uix:TargetAnchorable BrowserURL="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=ee7d8f13-4653-4e7b-80a7-826b447f311c&amp;redirect_uri=https%3A%2F%2Fewsp.gmx.com.mx%2FGEDIV2%2FStarting.aspx&amp;response_mode=form_post&amp;response_type=id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DJcsZLeOaRRdYs02pzCnP4bFOqjMP8BbrJqSJOA6_gGsfxKd5wiwxYIgFuV902g9dL_RCqk_LE_OQ059jnROiO7YxqZxoy3IiHa_dZ1FHX_JjQRlvHW_VrZZWtNyFXDEPWvK_hPaTD8WOEKg7u0bep2wJ9fx0m9AHkyWGLserJPE-Gr3-QUlMUAyEdo5lHcohf-h9r48yhIOSXxCDCM8dhcYky8FrG6G6SjRiwSsm_7Y&amp;nonce=638717810386123845.ZDhmYTVjMmUtNjJjZC00NDgwLWI2OTUtYjhmNzRmZGQ4NzgxZTQ1MWFkMGItMWJhNC00NDgxLWFiM2MtZGZkMzRmYjMwN2Y4&amp;x-client-SKU=ID_NET472&amp;x-client-ver=6.19.0.0&amp;sso_reload=true" DesignTimeRectangle="1053, 705, 136, 40" DesignTimeScaleFactor="1.25" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='idSIButton9' tag='INPUT' /&gt;" FuzzyAccuracy="0.8" FuzzySelectorArgument="&lt;webctrl id='idSIButton9' tag='INPUT' type='submit' class='win-button button_primary button ext-button primary ext-primary' aaname='Iniciar sesión' check:text='Iniciar sesión' /&gt;" Guid="ba28ef83-f494-4476-ada6-001267b5c1bd" InformativeScreenshot="f88225c99a72167a325a464a7b1ca588.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Iniciar sesión en la cuenta' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" WaitForReadyArgument="Complete">
                                                     <uix:TargetAnchorable.Anchors>
@@ -535,7 +553,7 @@
                                                   </uix:TargetAnchorable>
                                                 </uix:NClick.Target>
                                               </uix:NClick>
-                                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="489.6,698.4" sap2010:WorkflowViewState.IdRef="TryCatch_15">
+                                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="416,530" sap2010:WorkflowViewState.IdRef="TryCatch_15">
                                                 <TryCatch.Try>
                                                   <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="10" DisplayName="Clic 'Yes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_39" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Version="V1">
                                                     <uix:NClick.Target>
@@ -561,7 +579,7 @@
                                                       <ActivityAction.Argument>
                                                         <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                                       </ActivityAction.Argument>
-                                                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Clic 'Yes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_48" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Version="V1">
+                                                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Clic 'Yes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="348,162" sap2010:WorkflowViewState.IdRef="NClick_48" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Version="V1">
                                                         <uix:NClick.Target>
                                                           <uix:TargetAnchorable BrowserURL="https://login.microsoftonline.com/common/login" DesignTimeRectangle="1036, 670, 108, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='win-button button_primary button ext-button primary ext-primary' aaname='Yes' check:text='Yes' /&gt;" Guid="ef5864b4-4de4-48d0-b0a7-b844e967386e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHAAAAAkCAYAAABR/76qAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFpSURBVHhe7ZaxSgNBEIa9V/M98jI2PoIWqW0FawMWIWWaxELU7oqoICGBmBDCxj84cW6zAQvB+8d/4OMys5O94mN276SqqiR4kUByvgV2rgQTEkiOBJIjgeRIIDkSSI4EkiOB5EggORJIjgSSwyzw7HqUVutN6t49Hazd19MdeT0czAJBSRTEvs2WqXM5aNRDwi4QsmYf693TahB6O540+sLCLhD4Kcynz45ZCy8WPZBvkU8yBREEeml++vLpNGG4M0/Pe6l+X+x7kd8M6/2eNEQQCCDu+WXemD4v00COugksfQBREUWgHZV+oiCoFKhjHb0+z/ekIIpAfzwiN4H5BJbARCJ+0ts6ogoEEAN83zH8PVpaby2RBdqx6mv4DdDff3ht1PF/CfwjSgIBch923+V3JKU8EEXgv4VZ4EXv8Wt+fi+wZ+ldrYVZoPhEAsmRQHIkkBwJJEcCyZFAciSQnAOBghIJpKZKWz+ePpUrGsSEAAAAAElFTkSuQmCC" InformativeScreenshot="c42476d7d31592b15730e264b76994eb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="FuzzySelector, Image" WaitForReadyArgument="Complete" />
                                                         </uix:NClick.Target>
@@ -569,8 +587,11 @@
                                                     </ActivityAction>
                                                   </Catch>
                                                 </TryCatch.Catches>
+                                                <TryCatch.Finally>
+                                                  <Sequence DisplayName="Finalmente" sap2010:WorkflowViewState.IdRef="Sequence_776" />
+                                                </TryCatch.Finally>
                                               </TryCatch>
-                                              <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="489.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                                              <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Delay_3" />
                                             </Sequence>
                                           </TryCatch.Try>
                                           <TryCatch.Catches>
@@ -585,28 +606,28 @@
                                                 <ActivityAction.Argument>
                                                   <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                                 </ActivityAction.Argument>
-                                                <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="334.4,90.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                                                <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Delay_1" />
                                               </ActivityAction>
                                             </Catch>
                                           </TryCatch.Catches>
                                         </TryCatch>
                                       </Sequence>
-                                      <Sequence sap2010:Annotation.AnnotationText="Propocionar datos al portal" DisplayName="Propocionar datos al portal" sap:VirtualizedContainerService.HintSize="484,3571" sap2010:WorkflowViewState.IdRef="Sequence_729">
+                                      <Sequence sap2010:Annotation.AnnotationText="Propocionar datos al portal" DisplayName="Propocionar datos al portal" sap:VirtualizedContainerService.HintSize="486,88" sap2010:WorkflowViewState.IdRef="Sequence_729">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="450,3400" sap2010:WorkflowViewState.IdRef="Sequence_766">
+                                        <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="450,3404" sap2010:WorkflowViewState.IdRef="Sequence_766">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'INPUT Oficina'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,242" sap2010:WorkflowViewState.IdRef="NTypeInto_13" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Text="[out_Config(&quot;Oficina&quot;).ToString]" Timeout="30" Version="V1">
+                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'INPUT Oficina'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_13" ScopeIdentifier="d04b659b-b9e2-4a8c-ac8f-a4fb624cd811" Text="[out_Config(&quot;Oficina&quot;).ToString]" Timeout="30" Version="V1">
                                             <uix:NTypeInto.Target>
                                               <uix:TargetAnchorable BrowserURL="https://ewsp.gmx.com.mx/GEDIV2/MainApp.aspx" DesignTimeRectangle="540, 255, 139, 35" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='form-control form-control-sm' aaname='' /&gt;" Guid="8fede065-9c4c-4dd1-9a28-da6e29a5398c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIsAAAAjCAYAAACkVvl8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIhSURBVHhe7Zy/bsIwEIf7wF07sjCyMbKx8BIMDDxAJUSJBKgFIQaoRP/RMnLNOU5kLrYxMaqK8vskixg7TiR/uvNyuSMAArHKcjwe9RWoI679P5Fl9/5J0+cVTWZLenyaodW0JbMFTV9WtPv40mZkFLKwKPPlmvY/B/0PqDP774PywRSmkIUjCkQBJiwMR5gcJQvnqEkaegCQJPNlcYYpIgvnKgAkpheQBXiBLCAYyAKCgSwgGMgCgoEsIJh4WbZDaj406N5onbEeMynmtamf8HX6u9VjLtQ9AfPAnxAny7hnkSOhDkvRTXSfeaV+yyERuBkiZMmksAvAY2ZEkH1wi1SXhaNKa0gb3ZWMug1qDl7LaUrdY5FHR6m8ZRKa8/LolEmazfOvoZ4PrkZlWTaDtkg1p5yOn4k0apN7NNJdFqzvkMWcx0Kawo66xhpyTRDNP5DFd545M09FLZcQ8pkglsqyBKchhU8W36ZeKItMeZDlqlSXJXiTGV//SpGlFGV87weqECFLijoXyA3hTZKHS58sOmWJCOE6szhlkZHO+m4ghjhZmFLot0UJvyxMJoxMHxfIoseLNdLDrnwGiCNeFlAbIAsIBrKAYCALCAaygGAgCwimJAvXhXDJIgAS9qJUN8SVZ1yBBkCOtSKR4ZrW+WINYYBC1TqnPrzZap0ZFoZN4lJWzlVo9Wz5VxRMUZgTWXJc3+cA9cC1/1ZZAChD9Au3VFoPd+Ek+QAAAABJRU5ErkJggg==" InformativeScreenshot="5068f43b20037b81a243ab32863448da.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GEDi - Generador de Expediente Digital' /&gt;" SearchSteps="FuzzySelector, Image" WaitForReadyArgument="Complete">
                                                 <uix:TargetAnchorable.Anchors>
@@ -962,15 +983,15 @@
                                           <Delay DisplayName="Retraso" Duration="00:00:07" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Delay_8" />
                                         </Sequence>
                                       </Sequence>
-                                      <Sequence DisplayName="COPIAR EL ARCHIVO de comprobante" sap:VirtualizedContainerService.HintSize="484,626" sap2010:WorkflowViewState.IdRef="Sequence_764">
+                                      <Sequence DisplayName="COPIAR EL ARCHIVO de comprobante" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="Sequence_764">
                                         <Sequence.Variables>
                                           <Variable x:TypeArguments="x:String" Name="ComprobantepdfFile_str" />
                                           <Variable x:TypeArguments="x:String" Name="SoloNombreDelFile_str" />
                                         </Sequence.Variables>
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                         <Assign DisplayName="ComprobantepdfFile_str" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_761">
@@ -991,8 +1012,8 @@
                                         </Assign>
                                         <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[CurrentRowSolicitud(&quot;CARPETA&quot;).ToString+SoloNombreDelFile_str]" DisplayName="Mover archivo" sap:VirtualizedContainerService.HintSize="416,184" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="True" Path="[ComprobantepdfFile_str]" />
                                       </Sequence>
-                                      <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484,123" sap2010:WorkflowViewState.IdRef="Delay_9" />
-                                      <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="484,48" sap2010:WorkflowViewState.IdRef="CommentOut_53">
+                                      <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="486,123" sap2010:WorkflowViewState.IdRef="Delay_9" />
+                                      <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="486,48" sap2010:WorkflowViewState.IdRef="CommentOut_53">
                                         <ui:CommentOut.Body>
                                           <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="580,2369" sap2010:WorkflowViewState.IdRef="Sequence_761">
                                             <sap:WorkflowViewStateService.ViewState>
@@ -1563,12 +1584,12 @@
                                 </uix:NApplicationCard.TargetApp>
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                    <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                               </uix:NApplicationCard>
-                              <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="434,48" sap2010:WorkflowViewState.IdRef="CommentOut_46">
+                              <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="522,48" sap2010:WorkflowViewState.IdRef="CommentOut_46">
                                 <ui:CommentOut.Body>
                                   <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="526,572" sap2010:WorkflowViewState.IdRef="Sequence_750">
                                     <sap:WorkflowViewStateService.ViewState>
@@ -1634,7 +1655,7 @@
                             </Sequence>
                           </If.Then>
                           <If.Else>
-                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,90" sap2010:WorkflowViewState.IdRef="Sequence_748">
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="556,90" sap2010:WorkflowViewState.IdRef="Sequence_748">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1657,14 +1678,14 @@
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="504,532" sap2010:WorkflowViewState.IdRef="Sequence_717">
+                          <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="592,874" sap2010:WorkflowViewState.IdRef="Sequence_717">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_759">
+                            <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="558,175" sap2010:WorkflowViewState.IdRef="Assign_759">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:String">[io_MessageSeq_str]</OutArgument>
                               </Assign.To>
@@ -1672,7 +1693,7 @@
                                 <InArgument x:TypeArguments="x:String">["ERROR: "+Secuencia_str+".No se pudo registrar en el sistema Sii los datos del Asegurado/Contratante. Exception = "+exception.Message.ToString]</InArgument>
                               </Assign.Value>
                             </Assign>
-                            <Assign DisplayName="CurrentRowSolicitud(&quot;ERROR&quot;)" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_745">
+                            <Assign DisplayName="CurrentRowSolicitud(&quot;ERROR&quot;)" sap:VirtualizedContainerService.HintSize="558,175" sap2010:WorkflowViewState.IdRef="Assign_745">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:Object">[CurrentRowSolicitud("ERROR")]</OutArgument>
                               </Assign.To>
@@ -1680,7 +1701,7 @@
                                 <InArgument x:TypeArguments="x:String">[CurrentRowSolicitud("ERROR").ToString+". "+io_MessageSeq_str]</InArgument>
                               </Assign.Value>
                             </Assign>
-                            <Assign DisplayName="CurrentRowSolicitud(&quot;ESTATUS&quot;)" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_746">
+                            <Assign DisplayName="CurrentRowSolicitud(&quot;ESTATUS&quot;)" sap:VirtualizedContainerService.HintSize="558,175" sap2010:WorkflowViewState.IdRef="Assign_746">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:Object">[CurrentRowSolicitud("ESTATUS")]</OutArgument>
                               </Assign.To>
@@ -1688,7 +1709,7 @@
                                 <InArgument x:TypeArguments="x:Object">[out_Config("EstatusdDeError").ToString]</InArgument>
                               </Assign.Value>
                             </Assign>
-                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke ManejoDeMensajesErrores" sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="90) CommonFlows\ManejoDeMensajesErrores.xaml">
+                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke ManejoDeMensajesErrores" sap:VirtualizedContainerService.HintSize="558,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="90) CommonFlows\ManejoDeMensajesErrores.xaml">
                               <ui:InvokeWorkflowFile.Arguments>
                                 <InArgument x:TypeArguments="x:String" x:Key="i_Mensaje_str">[io_MessageSeq_str]</InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="i_TipoMensaje">e</InArgument>
