@@ -6,7 +6,7 @@
         "Annotation": null,
         "Id": "6deedb4c-c967-4afc-8d7e-35c664ab7b5a",
         "ActivityIdRef": "Sequence_24",
-        "ActivityId": "1.92345",
+        "ActivityId": "1.92610",
         "ActivityName": "1.2)  Crear Carpeta del Folio",
         "IsTransient": false
       },
@@ -15,7 +15,7 @@
         "Annotation": null,
         "Id": "8538d497-210e-4ecd-bd24-abcbf92a7d84",
         "ActivityIdRef": "Sequence_23",
-        "ActivityId": "1.88252",
+        "ActivityId": "1.88517",
         "ActivityName": "Else",
         "IsTransient": false
       },
@@ -24,7 +24,7 @@
         "Annotation": null,
         "Id": "458b2a25-dd71-4785-8d18-6c45ec098093",
         "ActivityIdRef": "AppendRange_1",
-        "ActivityId": "1.87989",
+        "ActivityId": "1.88254",
         "ActivityName": "1.1.1.2) Anexar rango Solicitudes_tbl",
         "IsTransient": false
       },
@@ -33,7 +33,7 @@
         "Annotation": null,
         "Id": "7470b2f1-d885-46db-8486-bd0d7b3eb3d8",
         "ActivityIdRef": "InvokeWorkflowFile_9",
-        "ActivityId": "1.85627",
+        "ActivityId": "1.85892",
         "ActivityName": "Invoke 1.4.1) ExtraerDatosDelCertificadoPDF workflow",
         "IsTransient": false
       },
@@ -42,7 +42,7 @@
         "Annotation": null,
         "Id": "faf9f76f-9fcd-44c2-9a8f-5a1f9f10b4ab",
         "ActivityIdRef": "ForEachRow_1",
-        "ActivityId": "1.85059",
+        "ActivityId": "1.85324",
         "ActivityName": "Para cada fila de la tabla de datos",
         "IsTransient": false
       },
@@ -51,17 +51,8 @@
         "Annotation": null,
         "Id": "6c260338-e3e4-4459-885f-47961edde3cf",
         "ActivityIdRef": "Sequence_69",
-        "ActivityId": "1.84955",
+        "ActivityId": "1.85220",
         "ActivityName": "1.4) Extraer información del Certificado",
-        "IsTransient": false
-      },
-      {
-        "IsEnabled": true,
-        "Annotation": null,
-        "Id": "31465d96-0e6d-4c61-ac0d-a7ac920767df",
-        "ActivityIdRef": "Sequence_129",
-        "ActivityId": "1.76442",
-        "ActivityName": "Parametros Iniciales",
         "IsTransient": false
       },
       {
@@ -69,8 +60,17 @@
         "Annotation": null,
         "Id": "7ce9e160-43ca-40b5-8b32-3239a81079d4",
         "ActivityIdRef": "If_37",
-        "ActivityId": "1.68843",
+        "ActivityId": "1.68874",
         "ActivityName": "Si Para comparar Primas Netas y Totales",
+        "IsTransient": false
+      },
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "38d5e834-3201-4e87-a287-dac976870525",
+        "ActivityIdRef": "Sequence_339",
+        "ActivityId": "1.59324",
+        "ActivityName": "F32 y F65 TERREMOTO Y ERUPCIÓN VOLCÁNICA",
         "IsTransient": false
       },
       {
@@ -78,7 +78,7 @@
         "Annotation": null,
         "Id": "5079db6c-56a5-48ee-9c59-7984b5d9db15",
         "ActivityIdRef": "InvokeCode_1",
-        "ActivityId": "1.23759",
+        "ActivityId": "1.23691",
         "ActivityName": "Invoke Code",
         "IsTransient": false
       },
@@ -87,7 +87,7 @@
         "Annotation": null,
         "Id": "379764b0-3abd-48b4-96d8-a36fb03e5b4a",
         "ActivityIdRef": "ForEachRow_11",
-        "ActivityId": "1.22464",
+        "ActivityId": "1.22396",
         "ActivityName": "1.6.3.1) Escribe Datos Generales al Slip. Para cada fila de la tabla de datos Del Archivo Mapeado",
         "IsTransient": false
       }

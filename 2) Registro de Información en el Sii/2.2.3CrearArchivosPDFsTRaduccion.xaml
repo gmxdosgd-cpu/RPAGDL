@@ -152,7 +152,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="2.2.3) Crear Archivos PDF's Traducción de las solicitudes que tienen póliza." DisplayName="2.2.3) Crear Archivos PDF's TRaducción" sap:VirtualizedContainerService.HintSize="1259,1335" sap2010:WorkflowViewState.IdRef="Sequence_1378">
+  <Sequence sap2010:Annotation.AnnotationText="2.2.3) Crear Archivos PDF's Traducción de las solicitudes que tienen póliza." DisplayName="2.2.3) Crear Archivos PDF's TRaducción" sap:VirtualizedContainerService.HintSize="1281,10545" sap2010:WorkflowViewState.IdRef="Sequence_1378">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="ArchivoSolicitudesDelDiaParaPDFs_dt" />
       <Variable x:TypeArguments="x:String" Name="Mensaje_str" />
@@ -165,7 +165,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign DisplayName="Secuencia_str" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_1136">
+    <Assign DisplayName="Secuencia_str" sap:VirtualizedContainerService.HintSize="630,175" sap2010:WorkflowViewState.IdRef="Assign_1136">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[Secuencia_str]</OutArgument>
       </Assign.To>
@@ -173,7 +173,7 @@
         <InArgument x:TypeArguments="x:String">2.2.3CrearArchivosPDFsTRaduccion</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke ManejoDeMensajesErrores" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_22" UnSafe="False" WorkflowFileName="90) CommonFlows\ManejoDeMensajesErrores.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke ManejoDeMensajesErrores" sap:VirtualizedContainerService.HintSize="630,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_22" UnSafe="False" WorkflowFileName="90) CommonFlows\ManejoDeMensajesErrores.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:String" x:Key="i_Mensaje_str">["___INI: "+Secuencia_str]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="i_TipoMensaje">i</InArgument>
@@ -186,7 +186,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InvokeWorkflowFile>
-    <Assign DisplayName="out_Config(&quot;ErrorTexto&quot;)." sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_1129">
+    <Assign DisplayName="out_Config(&quot;ErrorTexto&quot;)." sap:VirtualizedContainerService.HintSize="630,175" sap2010:WorkflowViewState.IdRef="Assign_1129">
       <Assign.To>
         <OutArgument x:TypeArguments="x:Object">[out_Config("ErrorTexto")]</OutArgument>
       </Assign.To>
@@ -194,7 +194,7 @@
         <InArgument x:TypeArguments="x:String">["Error en: "+"2.2.3.1) Leer Archivo io_ArchivoSolicitudesDelDia_str. No se puede leer archivo io_ArchivoSolicitudesDelDia_str."]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+    <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="630,57" sap2010:WorkflowViewState.IdRef="CommentOut_6">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="345.6,345.6" sap2010:WorkflowViewState.IdRef="Sequence_1418">
           <sap:WorkflowViewStateService.ViewState>
@@ -235,8 +235,8 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="450,123" sap2010:WorkflowViewState.IdRef="WriteLine_205" Text="[&quot;Archivo Soldicitudes: &quot;+io_ArchivoSolicitudesDelDia_str]" />
-    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[ArchivoSolicitudesDelDiaParaPDFs_dt]" DisplayName="Leer rango en ArchivoSolicitudesDelDiaParaPDFs_dt" sap:VirtualizedContainerService.HintSize="450,227" sap2010:WorkflowViewState.IdRef="ReadRange_18" SheetName="[out_Config(&quot;HojaArchivoSolicitudesTemplate&quot;).ToString]" WorkbookPath="[io_ArchivoSolicitudesDelDia_str]">
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="630,123" sap2010:WorkflowViewState.IdRef="WriteLine_205" Text="[&quot;Archivo Soldicitudes: &quot;+io_ArchivoSolicitudesDelDia_str]" />
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[ArchivoSolicitudesDelDiaParaPDFs_dt]" DisplayName="Leer rango en ArchivoSolicitudesDelDiaParaPDFs_dt" sap:VirtualizedContainerService.HintSize="630,227" sap2010:WorkflowViewState.IdRef="ReadRange_18" SheetName="[out_Config(&quot;HojaArchivoSolicitudesTemplate&quot;).ToString]" WorkbookPath="[io_ArchivoSolicitudesDelDia_str]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -244,7 +244,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ReadRange>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="450,179" sap2010:WorkflowViewState.IdRef="TryCatch_65">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="630,9389" sap2010:WorkflowViewState.IdRef="TryCatch_65">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -252,13 +252,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ArchivoSolicitudesDelDiaParaPDFs_dt]" DisplayName="Para cada fila de la tabla de datos" sap:VirtualizedContainerService.HintSize="620,7352" sap2010:WorkflowViewState.IdRef="ForEachRow_19">
+        <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ArchivoSolicitudesDelDiaParaPDFs_dt]" DisplayName="Para cada fila de la tabla de datos" sap:VirtualizedContainerService.HintSize="628,9052" sap2010:WorkflowViewState.IdRef="ForEachRow_19">
           <ui:ForEachRow.Body>
             <ActivityAction x:TypeArguments="sd:DataRow">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRowSolicitud" />
               </ActivityAction.Argument>
-              <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="593.6,7132" sap2010:WorkflowViewState.IdRef="TryCatch_64">
+              <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="626,8850" sap2010:WorkflowViewState.IdRef="TryCatch_64">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -266,7 +266,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <TryCatch.Try>
-                  <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="592,6908.8" sap2010:WorkflowViewState.IdRef="Sequence_1392">
+                  <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="624,8632" sap2010:WorkflowViewState.IdRef="Sequence_1392">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="ui:Window" Name="LoginPantalla_vtna" />
                     </Sequence.Variables>
@@ -276,7 +276,7 @@
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="558.4,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_14">
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="590,57" sap2010:WorkflowViewState.IdRef="CommentOut_14">
                       <ui:CommentOut.Body>
                         <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="449.6,108" sap2010:WorkflowViewState.IdRef="Sequence_1469">
                           <sap:WorkflowViewStateService.ViewState>
@@ -1179,7 +1179,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:CommentOut>
-                    <If Condition="[CurrentRowSolicitud(&quot;POLIZA_NUEVA&quot;).ToString.Trim.Length&gt;5 AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ESTATUS&quot;).ToString.Trim) AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ERROR&quot;).ToString.Trim)]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="558.4,6744" sap2010:WorkflowViewState.IdRef="If_217">
+                    <If Condition="[CurrentRowSolicitud(&quot;POLIZA_NUEVA&quot;).ToString.Trim.Length&gt;5 AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ESTATUS&quot;).ToString.Trim) AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ERROR&quot;).ToString.Trim)]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="590,8467" sap2010:WorkflowViewState.IdRef="If_217">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -1187,7 +1187,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="555.2,6516" sap2010:WorkflowViewState.IdRef="Sequence_1427">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="588,8238" sap2010:WorkflowViewState.IdRef="Sequence_1427">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="NombreArchivoPdf_str" />
                           </Sequence.Variables>
@@ -1197,8 +1197,8 @@
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <WriteLine DisplayName="Escribir línea 1" sap:VirtualizedContainerService.HintSize="522,123" sap2010:WorkflowViewState.IdRef="WriteLine_206" Text="[&quot;CurrentRowSolicitud =&quot;+CurrentRowSolicitud(&quot;FOLIO_SOLICITUD&quot;).ToString]" />
-                          <Assign DisplayName="NombreArchivoPdf_str" sap:VirtualizedContainerService.HintSize="522,175" sap2010:WorkflowViewState.IdRef="Assign_1161">
+                          <WriteLine DisplayName="Escribir línea 1" sap:VirtualizedContainerService.HintSize="554,123" sap2010:WorkflowViewState.IdRef="WriteLine_206" Text="[&quot;CurrentRowSolicitud =&quot;+CurrentRowSolicitud(&quot;FOLIO_SOLICITUD&quot;).ToString]" />
+                          <Assign DisplayName="NombreArchivoPdf_str" sap:VirtualizedContainerService.HintSize="554,175" sap2010:WorkflowViewState.IdRef="Assign_1161">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:String">[NombreArchivoPdf_str]</OutArgument>
                             </Assign.To>
@@ -1206,7 +1206,7 @@
                               <InArgument x:TypeArguments="x:String">[CurrentRowSolicitud("ARCH_HOJA_CONTABLE_XLSX").ToString.Replace(".xlsx","_Traduccion.pdf")]</InArgument>
                             </Assign.Value>
                           </Assign>
-                          <Sequence sap2010:Annotation.AnnotationText="1.5.3) Guardar Archivo a PDF. Guarda la Hija Traducción a PDF" DisplayName="1.5.3) Guardar Archivo a PDF" sap:VirtualizedContainerService.HintSize="521.6,5364.8" sap2010:WorkflowViewState.IdRef="Sequence_1428">
+                          <Sequence sap2010:Annotation.AnnotationText="1.5.3) Guardar Archivo a PDF. Guarda la Hija Traducción a PDF" DisplayName="1.5.3) Guardar Archivo a PDF" sap:VirtualizedContainerService.HintSize="554,5372" sap2010:WorkflowViewState.IdRef="Sequence_1428">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="ui:WorkbookApplication" Name="ArchSaveToPpfHojaTradu_wbk" />
                               <Variable x:TypeArguments="x:String" Name="Oficina_str" />
@@ -1408,13 +1408,13 @@
                             </ui:CommentOut>
                             <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="488,123" sap2010:WorkflowViewState.IdRef="WriteLine_207" Text="[&quot;NumPolizaCompleta_str=&quot;+NumPolizaCompleta_str]" />
                             <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="488,123" sap2010:WorkflowViewState.IdRef="Delay_32" />
-                            <uix:NApplicationCard sap2010:Annotation.AnnotationText="Convierte la Hoja de Traducción a PDF." AttachMode="ByInstance" CloseMode="Always" DisplayName="Utilizar Aplicación: HC_Folio_*" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,4557.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" OpenMode="Always" ScopeGuid="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V2" WindowResize="Maximize">
+                            <uix:NApplicationCard sap2010:Annotation.AnnotationText="Convierte la Hoja de Traducción a PDF." AttachMode="ByInstance" CloseMode="Always" DisplayName="Utilizar Aplicación: HC_Folio_*" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,4565" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" OpenMode="Always" ScopeGuid="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V2" WindowResize="Maximize">
                               <uix:NApplicationCard.Body>
                                 <ActivityAction x:TypeArguments="x:Object">
                                   <ActivityAction.Argument>
                                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                   </ActivityAction.Argument>
-                                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="485.6,4280" sap2010:WorkflowViewState.IdRef="Sequence_1444">
+                                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="486,4288" sap2010:WorkflowViewState.IdRef="Sequence_1444">
                                     <Sequence.Variables>
                                       <Variable x:TypeArguments="x:Boolean" Name="FiltroEncontrado_bln" />
                                       <Variable x:TypeArguments="x:Int32" Default="0" Name="Contador_int" />
@@ -1628,7 +1628,7 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                     </uix:NClick>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Clic 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,193.6" sap2010:WorkflowViewState.IdRef="NClick_545" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Timeout="7" Version="V1">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Clic 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_545" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Timeout="7" Version="V1">
                                       <uix:NClick.Target>
                                         <uix:TargetAnchorable DesignTimeRectangle="38, 302, 285, 308" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Filtro manual' cls='SysTreeView32' /&gt;" Guid="2fae3a9c-b8f9-4b76-95ff-984be414129a" InformativeScreenshot="9c4d7fff768cea2b3e79fffdff3b79d9.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="Selector" SelectionStrategy="AA" Version="V6" WaitForReadyArgument="Interactive">
                                           <uix:TargetAnchorable.PointOffset>
@@ -1642,7 +1642,7 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                     </uix:NClick>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Clic 'ACEPTAR'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,193.6" sap2010:WorkflowViewState.IdRef="NClick_546" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Timeout="7" Version="V1">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Clic 'ACEPTAR'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_546" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Timeout="7" Version="V1">
                                       <uix:NClick.Target>
                                         <uix:TargetAnchorable DesignTimeRectangle="0, 0, 333, 674" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;" Guid="21813bcc-6e45-47d0-b0ec-e45f28848131" InformativeScreenshot="243f99586b49ed27f4e1ab0732e5d5ff.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="Selector" SelectionStrategy="AA" Version="V6" WaitForReadyArgument="Interactive">
                                           <uix:TargetAnchorable.PointOffset>
@@ -1656,19 +1656,19 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                     </uix:NClick>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="452,2044.8" sap2010:WorkflowViewState.IdRef="Sequence_1473">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="452,2048" sap2010:WorkflowViewState.IdRef="Sequence_1473">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Pestaña Archivo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_573" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Pestaña Archivo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_573" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable ContentHash="3mY1_OGeK0SPO7PHsWvubQ" DesignTimeRectangle="14, 69, 68, 38" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Barra de herramientas Ribbon' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='Pestaña Archivo' /&gt;" Guid="8476c104-28ba-4c8f-b604-296a6e99e68e" InformativeScreenshot="f113fc02dca65562b73e18f442bb1932.jpg" Reference="mENP1uzSukqSMN0-nOtIow/lW97tdGjD0yImq8UMAmqDA" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Libro1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" />
                                         </uix:NClick.Target>
                                       </uix:NClick>
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cerrar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_574" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cerrar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_574" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable ContentHash="iRslg1FXe0CSx801iPW2dA" DesignTimeRectangle="9, 515, 175, 50" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='NavBarMenu' cls='NetUIKeyboardTabElement' name='Archivo' /&gt;&lt;uia cls='NetUIRibbonTab' name='Guardar como' /&gt;" FuzzySelectorArgument="&lt;uia automationid='NavBarMenu' cls='NetUIKeyboardTabElement' name='Archivo' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIRibbonTab' name='Guardar como' role='Elemento de lista' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Guardar como' /&gt;" Guid="ee010f13-e8d7-46fa-80f0-a1ab9a2a474d" InformativeScreenshot="c855fb8b2e68b103599b26694ef049b7.jpg" Reference="mENP1uzSukqSMN0-nOtIow/PTHHTLwiJUq0K_uT5EGIPQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Libro1 - Excel' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6">
                                             <uix:TargetAnchorable.Anchors>
@@ -1679,7 +1679,7 @@
                                           </uix:TargetAnchorable>
                                         </uix:NClick.Target>
                                       </uix:NClick>
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar un sitio'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_575" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar un sitio'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_575" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable ContentHash="JUJLLKYBDUa_pIZIE5SRuw" DesignTimeRectangle="235, 559, 350, 55" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Guardar como' /&gt;&lt;uia automationid='SaveGroup' cls='NetUISlabContainer' name='Características de guardado' /&gt;&lt;uia cls='NetUIElement' /&gt;&lt;uia cls='NetUISimpleButton' name='Este PC' /&gt;" FuzzySelectorArgument="&lt;uia cls='NetUIElement' name='Guardar como' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='SaveGroup' cls='NetUISlabContainer' name='Características de guardado' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIElement' /&gt;&lt;uia cls='NetUISimpleButton' name='Este PC' role='Elemento de pestaña' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Este PC' /&gt;" Guid="be8a2b19-2588-46df-9507-5a568a729010" InformativeScreenshot="5ae5c05b2188da4c6b980e988a9c4ee9.jpg" Reference="mENP1uzSukqSMN0-nOtIow/wN92Y1ukG0uvLYVOXcPL8Q" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Libro1 - Excel' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6">
                                             <uix:TargetAnchorable.Anchors>
@@ -1690,7 +1690,7 @@
                                           </uix:TargetAnchorable>
                                         </uix:NClick.Target>
                                       </uix:NClick>
-                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Guardar'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_47" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Text="[NombreArchivoPdf_str]" Timeout="30" Version="V1">
+                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Guardar'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_47" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Text="[NombreArchivoPdf_str]" Timeout="30" Version="V1">
                                         <uix:NTypeInto.Target>
                                           <uix:TargetAnchorable DesignTimeRectangle="629, 179, 1116, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Guardar como' /&gt;&lt;uia automationid='GroupDynamicSavePinnableServiceProvider' cls='NetUISlabContainer' name='Seleccionar una carpeta' /&gt;&lt;uia cls='NetUIPropertyTextbox' name='Escriba aquí el nombre de archivo' /&gt;" Guid="5eca26d5-caff-4aa9-8b9c-d3b651dd94e9" InformativeScreenshot="81a647eb721a0cb0697b1b5a7eb0669e.jpg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Libro1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" />
                                         </uix:NTypeInto.Target>
@@ -1700,7 +1700,7 @@
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                       </uix:NTypeInto>
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Libro de Excel (*.xlsx)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_576" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Libro de Excel (*.xlsx)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_576" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable ContentHash="qaau_Obr_UOiPCxtDp61-A" DesignTimeRectangle="1727, 213, 18, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Guardar como' /&gt;&lt;uia automationid='GroupDynamicSavePinnableServiceProvider' cls='NetUISlabContainer' name='Seleccionar una carpeta' /&gt;&lt;uia cls='NetUIDropdownAnchor' name='Guardar como tipo' /&gt;&lt;uia cls='NetUISimpleButton' name='Abrir' /&gt;" FuzzySelectorArgument="&lt;uia cls='NetUIElement' name='Guardar como' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='GroupDynamicSavePinnableServiceProvider' cls='NetUISlabContainer' name='Seleccionar una carpeta' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIDropdownAnchor' name='Guardar como tipo' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUISimpleButton' name='Abrir' role='Botón' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Abrir' /&gt;" Guid="7ba77e4a-13b3-4480-a9cb-0ea06ad01690" InformativeScreenshot="bf3e2a976ba92ecbb5560fd747d40ee9.jpg" Reference="mENP1uzSukqSMN0-nOtIow/gIaYku3530WhwjLxMzxF6g" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Libro1 - Excel' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6">
                                             <uix:TargetAnchorable.Anchors>
@@ -1711,24 +1711,24 @@
                                           </uix:TargetAnchorable>
                                         </uix:NClick.Target>
                                       </uix:NClick>
-                                      <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Libro de Excel (.xlsx)…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,297.6" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
+                                      <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Libro de Excel (.xlsx)…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,298" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
                                         <uix:NMouseScroll.Target>
                                           <uix:TargetAnchorable ContentHash="7QkNcsv9vkaVjqbIQ4F9MQ" DesignTimeRectangle="754, 293, 957, 622" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Guardar como' /&gt;&lt;uia automationid='GroupDynamicSavePinnableServiceProvider' cls='NetUISlabContainer' name='Seleccionar una carpeta' /&gt;&lt;uia cls='NetUIDropdownAnchor' name='Guardar como tipo' /&gt;&lt;uia cls='NetUIGalleryContainer' /&gt;" Guid="7429cacc-0582-4bd1-802a-f6ef1816ee33" InformativeScreenshot="8909e09a9ce9a99106913a697496b690.jpg" Reference="mENP1uzSukqSMN0-nOtIow/Wc5GuvnlwE-eB8R8lMMxqg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Libro1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" />
                                         </uix:NMouseScroll.Target>
                                       </uix:NMouseScroll>
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PDF (.pdf)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_577" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PDF (.pdf)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_577" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable ContentHash="ayt-KvT5FkiXkbSTmC1VIg" DesignTimeRectangle="755, 790, 929, 31" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Guardar como' /&gt;&lt;uia automationid='GroupDynamicSavePinnableServiceProvider' cls='NetUISlabContainer' name='Seleccionar una carpeta' /&gt;&lt;uia cls='NetUIDropdownAnchor' name='Guardar como tipo' /&gt;&lt;uia cls='NetUIGalleryCategoryContainer' name=' ' /&gt;&lt;uia cls='NetUIGalleryButton' name='PDF (*.pdf)' /&gt;" Guid="119540bb-7b23-44d6-9d71-3df90df042e9" InformativeScreenshot="5d5812c53a02b3ed63ebe31b40fd7915.jpg" Reference="mENP1uzSukqSMN0-nOtIow/lkZkJxakvE-3CMApPWlPaw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Libro1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" />
                                         </uix:NClick.Target>
                                       </uix:NClick>
-                                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,256.8" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_13" InteractionMode="HardwareEvents" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5" />
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Guardar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,184.8" sap2010:WorkflowViewState.IdRef="NClick_578" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
+                                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_13" InteractionMode="HardwareEvents" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5" />
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Guardar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_578" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Version="V5">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable ContentHash="94jSSl_uT0uKiBlJNGeNhg" DesignTimeRectangle="1757, 242, 103, 34" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Guardar como' /&gt;&lt;uia automationid='GroupDynamicSavePinnableServiceProvider' cls='NetUISlabContainer' name='Seleccionar una carpeta' /&gt;&lt;uia cls='NetUIButton' name='Guardar' /&gt;" Guid="1dcc4866-7a41-45d6-a9b6-a2305291c5d9" InformativeScreenshot="61da4c3c54a54b242abecfc4f2241ba3.jpg" Reference="mENP1uzSukqSMN0-nOtIow/gh0nB6HAi0akxhMPGifBWA" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Libro1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" />
                                         </uix:NClick.Target>
                                       </uix:NClick>
                                     </Sequence>
-                                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_17">
+                                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="CommentOut_17">
                                       <ui:CommentOut.Body>
                                         <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="483.2,1624.8" sap2010:WorkflowViewState.IdRef="Sequence_1474">
                                           <sap:WorkflowViewStateService.ViewState>
@@ -1807,7 +1807,7 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                     </ui:CommentOut>
-                                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_16">
+                                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="CommentOut_16">
                                       <ui:CommentOut.Body>
                                         <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="483.2,720.8" sap2010:WorkflowViewState.IdRef="Sequence_1472">
                                           <sap:WorkflowViewStateService.ViewState>
@@ -1942,9 +1942,9 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                     </ui:CommentOut>
-                                    <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="452,122.4" sap2010:WorkflowViewState.IdRef="Delay_33" />
-                                    <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="452,174.4" sap2010:WorkflowViewState.IdRef="KillProcess_2" ProcessName="MSEDGE.EXE" />
-                                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_13">
+                                    <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="452,123" sap2010:WorkflowViewState.IdRef="Delay_33" />
+                                    <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="KillProcess_2" ProcessName="MSEDGE.EXE" />
+                                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="CommentOut_13">
                                       <ui:CommentOut.Body>
                                         <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="449.6,164.8" sap2010:WorkflowViewState.IdRef="Sequence_1443">
                                           <sap:WorkflowViewStateService.ViewState>
@@ -2013,7 +2013,7 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                     </ui:CommentOut>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Cerrar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,193.6" sap2010:WorkflowViewState.IdRef="NClick_554" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Timeout="30" Version="V1">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Cerrar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_554" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Timeout="30" Version="V1">
                                       <uix:NClick.Target>
                                         <uix:TargetAnchorable DesignTimeRectangle="1409, 7, 24, 24" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Cerrar' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Cerrar' role='push button' automationid='' check:text='Cerrar' /&gt;" Guid="af1c854f-913f-4300-9568-49455901dd07" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADvSURBVEhL7dVBCsIwEIXhXKV6EQXpSXQZXHgCQQ/hTvBwBYWqqOvYF2ltnEmwZToLcfFvGtKPNmlqRvOJI9mZy1Z5NIyz86rGi6nLlvH5FBwQQyE4MIbeoAKGXqAShowmhgx3sU4aQwQsLidnD9soZndrV5THXhgiILDz/epvzGF+bL8J5nSJgHgyf+NbiEpgKADbr7GNSmGoAbk1q1EpDHkwtUGAlQCrtf2c3Cf/HaYwPBmw8iGDsn8Lbs2kUAKmNogESkB81KkNAgyHAzf2TQHY97jqUgNqYMiDWhgymhgymhgih/fQ/UHxfh3M3RMWONz0lpIVYwAAAABJRU5ErkJggg==" InformativeScreenshot="412c1501198c72764c2e55106c2da73d.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='HC_Folio_*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" SelectionStrategy="AA" WaitForReadyArgument="Interactive">
                                           <uix:TargetAnchorable.Anchors>
@@ -2030,7 +2030,7 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                     </uix:NClick>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Clic 'Microsoft Excel'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,184.8" sap2010:WorkflowViewState.IdRef="NClick_555" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Timeout="30" Version="V1">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Clic 'Microsoft Excel'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,185" sap2010:WorkflowViewState.IdRef="NClick_555" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df6fd92a-69c3-4a18-89da-03970bf16799" Timeout="30" Version="V1">
                                       <uix:NClick.Target>
                                         <uix:TargetAnchorable DesignTimeRectangle="47, 84, 79, 23" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;uia cls='NetUIButton' name='Guardar' /&gt;" FuzzySelectorArgument="&lt;uia cls='NetUIButton' name='Guardar' role='Botón' automationid='' check:fulltext='Guardar' /&gt;" Guid="ae509cbe-4689-4c30-9ed5-40529ba7d005" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFMAAAAbCAYAAAAAubMBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE8SURBVGhD7ZbdbcUgDEaZiecu4mFQJ2GIuwCbZIds4Jb8GsJNk2CQ2n4PR7oYsOIjOzdmHEcGOkCmIpCpSCLz4/MFbiL9HWQOwwAuApmKQKYikKkIZCoCmYr0kxkcW2PYbBD70jkVPJOx7EJprx19ZHpqLC/nz8oM7OxZYXnhch3v7t1sXUjOEFk21nHYYstZooc56mgvM4736cOeyZTE+Nrds7hdzMCexHqahPs5aukuM7jvTpi6ZC02l5etJzFrZ1288yhHPe1lFh9axk5ERAnJGF+48zhHPR1kLt2YjLosZH6nkV/25IjG3+SP8YOIOUdxzC/nqKeLzMg+3jPJu2oqctlL/jxiwe/imQj56fU0RyXdZP4HmsvcOu4NpTu/FXSmIpCpCGQq8qNMcA/pL5EJ6oBMRSBTjZG/AL+l9sFRxB0CAAAAAElFTkSuQmCC" InformativeScreenshot="9cac9033b828d9e28d081057dc064ea6.png" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='NUIDialog' title='Microsoft Excel' /&gt;" SearchSteps="Selector, FuzzySelector, Image" WaitForReadyArgument="Complete">
                                           <uix:TargetAnchorable.Anchors>
@@ -2073,7 +2073,7 @@
                               </sap:WorkflowViewStateService.ViewState>
                             </uix:NApplicationCard>
                           </Sequence>
-                          <Sequence sap2010:Annotation.AnnotationText="1.5.4) Mandar Documento de Traducion por mail" DisplayName="1.5.4) Mandar Docto Traducion por mail" sap:VirtualizedContainerService.HintSize="521.6,626.4" sap2010:WorkflowViewState.IdRef="Sequence_1447">
+                          <Sequence sap2010:Annotation.AnnotationText="1.5.4) Mandar Documento de Traducion por mail" DisplayName="1.5.4) Mandar Docto Traducion por mail" sap:VirtualizedContainerService.HintSize="554,2342" sap2010:WorkflowViewState.IdRef="Sequence_1447">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="NuevoNombreArchivoPdf_str" />
                               <Variable x:TypeArguments="x:String" Name="NumDePoliza_str" />
@@ -2086,7 +2086,7 @@
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Assign DisplayName="LeerNombreArchivoPdf_str" sap:VirtualizedContainerService.HintSize="449.6,174.4" sap2010:WorkflowViewState.IdRef="Assign_1176">
+                            <Assign DisplayName="LeerNombreArchivoPdf_str" sap:VirtualizedContainerService.HintSize="520,175" sap2010:WorkflowViewState.IdRef="Assign_1176">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:String">[LeerNombreArchivoPdf_str]</OutArgument>
                               </Assign.To>
@@ -2094,18 +2094,18 @@
                                 <InArgument x:TypeArguments="x:String">[CurrentRowSolicitud("CARPETA").ToString+NombreArchivoPdf_str]</InArgument>
                               </Assign.Value>
                             </Assign>
-                            <Sequence DisplayName="1,5,4,1) Nuevo nombre de docto trad" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_1445">
+                            <Sequence DisplayName="1,5,4,1) Nuevo nombre de docto trad" sap:VirtualizedContainerService.HintSize="520,938" sap2010:WorkflowViewState.IdRef="Sequence_1445">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="x:String" Name="TraducPdfText_str" />
                                 <Variable x:TypeArguments="s:String[]" Name="TextSplited_lst" />
                               </Sequence.Variables>
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:ReadPDFText PreserveFormatting="{x:Null}" ResourceFile="{x:Null}" sap2010:Annotation.AnnotationText="TraducPdfText_str" DisplayName="Leer texto en PDF" FileName="[LeerNombreArchivoPdf_str]" sap:VirtualizedContainerService.HintSize="434,146" sap2010:WorkflowViewState.IdRef="ReadPDFText_2" Range="All" Text="[TraducPdfText_str]">
+                              <ui:ReadPDFText PreserveFormatting="{x:Null}" ResourceFile="{x:Null}" sap2010:Annotation.AnnotationText="TraducPdfText_str" DisplayName="Leer texto en PDF" FileName="[LeerNombreArchivoPdf_str]" sap:VirtualizedContainerService.HintSize="416,155" sap2010:WorkflowViewState.IdRef="ReadPDFText_2" Range="All" Text="[TraducPdfText_str]">
                                 <ui:ReadPDFText.Item>
                                   <upap:ItemArgument x:TypeArguments="upr:IResource" ResourceFile="{x:Null}" FileName="[LeerNombreArchivoPdf_str]" />
                                 </ui:ReadPDFText.Item>
@@ -2115,7 +2115,7 @@
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                               </ui:ReadPDFText>
-                              <Assign DisplayName="TextSplited_lst" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_1177">
+                              <Assign DisplayName="TextSplited_lst" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_1177">
                                 <Assign.To>
                                   <OutArgument x:TypeArguments="s:String[]">[TextSplited_lst]</OutArgument>
                                 </Assign.To>
@@ -2123,7 +2123,7 @@
                                   <InArgument x:TypeArguments="s:String[]">[Split(TraducPdfText_str,"Policy")]</InArgument>
                                 </Assign.Value>
                               </Assign>
-                              <Assign DisplayName="NumDePoliza_str" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_1178">
+                              <Assign DisplayName="NumDePoliza_str" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_1178">
                                 <Assign.To>
                                   <OutArgument x:TypeArguments="x:String">[NumDePoliza_str]</OutArgument>
                                 </Assign.To>
@@ -2131,7 +2131,7 @@
                                   <InArgument x:TypeArguments="x:String">[TextSplited_lst(2).Substring(0,24).ToString]</InArgument>
                                 </Assign.Value>
                               </Assign>
-                              <Assign DisplayName="NuevoNombreArchivoPdf_str" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_1179">
+                              <Assign DisplayName="NuevoNombreArchivoPdf_str" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_1179">
                                 <Assign.To>
                                   <OutArgument x:TypeArguments="x:String">[NuevoNombreArchivoPdf_str]</OutArgument>
                                 </Assign.To>
@@ -2139,7 +2139,7 @@
                                   <InArgument x:TypeArguments="x:String">[CurrentRowSolicitud("CARPETA").ToString+NumDePoliza_str+".pdf"]</InArgument>
                                 </Assign.Value>
                               </Assign>
-                              <Assign DisplayName="NuevoNombreArchivoPdf_str" sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_1180">
+                              <Assign DisplayName="NuevoNombreArchivoPdf_str" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_1180">
                                 <Assign.To>
                                   <OutArgument x:TypeArguments="x:String">[NuevoNombreArchivoPdf_str]</OutArgument>
                                 </Assign.To>
@@ -2148,7 +2148,7 @@
                                 </Assign.Value>
                               </Assign>
                             </Sequence>
-                            <ui:CopyFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[NuevoNombreArchivoPdf_str]" DisplayName="Copiar archivo" sap:VirtualizedContainerService.HintSize="450,224" sap2010:WorkflowViewState.IdRef="CopyFile_2" Overwrite="True" Path="[LeerNombreArchivoPdf_str]">
+                            <ui:CopyFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[NuevoNombreArchivoPdf_str]" DisplayName="Copiar archivo" sap:VirtualizedContainerService.HintSize="520,224" sap2010:WorkflowViewState.IdRef="CopyFile_2" Overwrite="True" Path="[LeerNombreArchivoPdf_str]">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2156,44 +2156,80 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:CopyFile>
-                            <umab:OutlookApplicationCard Account="rpagdl@gmx.com.mx" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="Utilizar la aplicación Outlook de escritorio" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_2">
-                              <umab:OutlookApplicationCard.Body>
-                                <ActivityAction x:TypeArguments="um:IMailQuickHandle">
-                                  <ActivityAction.Argument>
-                                    <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Outlook" />
-                                  </ActivityAction.Argument>
-                                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="449.6,377.6" sap2010:WorkflowViewState.IdRef="Sequence_1446">
+                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="520,882" sap2010:WorkflowViewState.IdRef="TryCatch_68">
+                              <TryCatch.Try>
+                                <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="518,646" sap2010:WorkflowViewState.IdRef="Sequence_1475">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <umab:OutlookApplicationCard Account="rpagdl@gmx.com.mx" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="Utilizar la aplicación Outlook de escritorio" sap:VirtualizedContainerService.HintSize="484,586" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_2">
+                                    <umab:OutlookApplicationCard.Body>
+                                      <ActivityAction x:TypeArguments="um:IMailQuickHandle">
+                                        <ActivityAction.Argument>
+                                          <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Outlook" />
+                                        </ActivityAction.Argument>
+                                        <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,378" sap2010:WorkflowViewState.IdRef="Sequence_1446">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" UseRichTextEditor="{x:Null}" Body="[&quot;¡Buen día En el presente correo encontrarán adjunta la traducción de la póliza en referencia.&quot;+NumDePoliza_str+&quot;Sin más por el momento, quedo a sus órdenes para cualquier duda o aclaración¡Saludos Cordiales!&quot;]" ConnectionMode="LegacyConfiguration" CreatedAfterSolutionSupport="False" DisplayName="Enviar mensaje de correo de Outlook" sap:VirtualizedContainerService.HintSize="416,318" sap2010:WorkflowViewState.IdRef="SendOutlookMail_2" Importance="Normal" IsBodyHtml="True" IsDraft="False" Sensitivity="Normal" Subject="TRADUCCION" TimeoutMS="[Convert.ToInt32( out_Config(&quot;TimeoutLong&quot;) )]" To="[out_Config(&quot;ParaCorreosDeTraduccion&quot;).ToString]" UseISConnection="False">
+                                            <ui:SendOutlookMail.ConnectionDetailsBackupSlot>
+                                              <usau:BackupSlot x:TypeArguments="umae:ConnectionDetails" StoredValue="{x:Null}">
+                                                <usau:BackupSlot.BackupValues>
+                                                  <scg:Dictionary x:TypeArguments="umae:ConnectionDetails, scg:List(x:Object)" />
+                                                </usau:BackupSlot.BackupValues>
+                                              </usau:BackupSlot>
+                                            </ui:SendOutlookMail.ConnectionDetailsBackupSlot>
+                                            <ui:SendOutlookMail.Files>
+                                              <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                                                <InArgument x:TypeArguments="x:String">[NuevoNombreArchivoPdf_str]</InArgument>
+                                              </scg:List>
+                                            </ui:SendOutlookMail.Files>
+                                          </ui:SendOutlookMail>
+                                        </Sequence>
+                                      </ActivityAction>
+                                    </umab:OutlookApplicationCard.Body>
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" UseRichTextEditor="{x:Null}" Body="[&quot;¡Buen día En el presente correo encontrarán adjunta la traducción de la póliza en referencia.&quot;+NumDePoliza_str+&quot;Sin más por el momento, quedo a sus órdenes para cualquier duda o aclaración¡Saludos Cordiales!&quot;]" ConnectionMode="LegacyConfiguration" CreatedAfterSolutionSupport="False" DisplayName="Enviar mensaje de correo de Outlook" sap:VirtualizedContainerService.HintSize="416,317.6" sap2010:WorkflowViewState.IdRef="SendOutlookMail_2" Importance="Normal" IsBodyHtml="True" IsDraft="False" Sensitivity="Normal" Subject="TRADUCCION" TimeoutMS="[Convert.ToInt32( out_Config(&quot;TimeoutLong&quot;) )]" To="[out_Config(&quot;ParaCorreosDeTraduccion&quot;).ToString]" UseISConnection="False">
-                                      <ui:SendOutlookMail.ConnectionDetailsBackupSlot>
-                                        <usau:BackupSlot x:TypeArguments="umae:ConnectionDetails" StoredValue="{x:Null}">
-                                          <usau:BackupSlot.BackupValues>
-                                            <scg:Dictionary x:TypeArguments="umae:ConnectionDetails, scg:List(x:Object)" />
-                                          </usau:BackupSlot.BackupValues>
-                                        </usau:BackupSlot>
-                                      </ui:SendOutlookMail.ConnectionDetailsBackupSlot>
-                                      <ui:SendOutlookMail.Files>
-                                        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-                                          <InArgument x:TypeArguments="x:String">[NuevoNombreArchivoPdf_str]</InArgument>
-                                        </scg:List>
-                                      </ui:SendOutlookMail.Files>
-                                    </ui:SendOutlookMail>
-                                  </Sequence>
-                                </ActivityAction>
-                              </umab:OutlookApplicationCard.Body>
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                            </umab:OutlookApplicationCard>
+                                  </umab:OutlookApplicationCard>
+                                </Sequence>
+                              </TryCatch.Try>
+                              <TryCatch.Catches>
+                                <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_68">
+                                  <ActivityAction x:TypeArguments="s:Exception">
+                                    <ActivityAction.Argument>
+                                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                    </ActivityAction.Argument>
+                                    <Sequence DisplayName="Capturar" sap:VirtualizedContainerService.HintSize="518,90" sap2010:WorkflowViewState.IdRef="Sequence_1476">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </Sequence>
+                                  </ActivityAction>
+                                </Catch>
+                              </TryCatch.Catches>
+                              <TryCatch.Finally>
+                                <Sequence DisplayName="Finalmente" sap2010:WorkflowViewState.IdRef="Sequence_1477">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </TryCatch.Finally>
+                            </TryCatch>
                           </Sequence>
-                          <Assign DisplayName="io_HayError_bln" sap:VirtualizedContainerService.HintSize="522,166" sap2010:WorkflowViewState.IdRef="Assign_1162">
+                          <Assign DisplayName="io_HayError_bln" sap:VirtualizedContainerService.HintSize="554,166" sap2010:WorkflowViewState.IdRef="Assign_1162">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:Boolean">[io_HayError_bln]</OutArgument>
                             </Assign.To>
@@ -2204,7 +2240,7 @@
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="553.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_1448">
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="588,90" sap2010:WorkflowViewState.IdRef="Sequence_1448">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2213,7 +2249,7 @@
                         </Sequence>
                       </If.Else>
                     </If>
-                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="558,48" sap2010:WorkflowViewState.IdRef="CommentOut_10">
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="590,48" sap2010:WorkflowViewState.IdRef="CommentOut_10">
                       <ui:CommentOut.Body>
                         <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="518.4,977.6" sap2010:WorkflowViewState.IdRef="Sequence_1449">
                           <sap:WorkflowViewStateService.ViewState>
@@ -3120,7 +3156,7 @@
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Sequence Exception exception" sap:VirtualizedContainerService.HintSize="592,24.8" sap2010:WorkflowViewState.IdRef="Sequence_1395">
+                      <Sequence DisplayName="Sequence Exception exception" sap:VirtualizedContainerService.HintSize="624,25" sap2010:WorkflowViewState.IdRef="Sequence_1395">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3206,7 +3242,7 @@
                   </Catch>
                 </TryCatch.Catches>
                 <TryCatch.Finally>
-                  <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="592,90" sap2010:WorkflowViewState.IdRef="Sequence_1420">
+                  <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="624,90" sap2010:WorkflowViewState.IdRef="Sequence_1420">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3231,7 +3267,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Catch {ExceptionType}" sap:VirtualizedContainerService.HintSize="620,89.6" sap2010:WorkflowViewState.IdRef="Sequence_1424">
+            <Sequence DisplayName="Catch {ExceptionType}" sap:VirtualizedContainerService.HintSize="628,90" sap2010:WorkflowViewState.IdRef="Sequence_1424">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3251,7 +3287,7 @@
         </Sequence>
       </TryCatch.Finally>
     </TryCatch>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke ManejoDeMensajesErrores" sap:VirtualizedContainerService.HintSize="450,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_23" UnSafe="False" WorkflowFileName="90) CommonFlows\ManejoDeMensajesErrores.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke ManejoDeMensajesErrores" sap:VirtualizedContainerService.HintSize="630,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_23" UnSafe="False" WorkflowFileName="90) CommonFlows\ManejoDeMensajesErrores.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:String" x:Key="i_Mensaje_str">["___FIN: "+Secuencia_str]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="i_TipoMensaje">i</InArgument>
