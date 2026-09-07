@@ -6,7 +6,7 @@
         "Annotation": null,
         "Id": "458b2a25-dd71-4785-8d18-6c45ec098093",
         "ActivityIdRef": "AppendRange_1",
-        "ActivityId": "1.89082",
+        "ActivityId": "1.90000",
         "ActivityName": "1.1.1.2) Anexar rango Solicitudes_tbl",
         "IsTransient": false
       },
@@ -15,8 +15,17 @@
         "Annotation": null,
         "Id": "6c260338-e3e4-4459-885f-47961edde3cf",
         "ActivityIdRef": "Sequence_709",
-        "ActivityId": "1.86048",
+        "ActivityId": "1.86966",
         "ActivityName": "1.4) Extraer información del Certificado",
+        "IsTransient": false
+      },
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "b9b889ed-9360-459f-964b-977b4442263c",
+        "ActivityIdRef": "If_24",
+        "ActivityId": "1.72831",
+        "ActivityName": "Si hay differencia",
         "IsTransient": false
       },
       {
@@ -140,6 +149,17 @@
         "ActivityIdRef": "Sequence_52",
         "ActivityId": "1.350",
         "ActivityName": "2 Registra Datos en Sii",
+        "IsTransient": false
+      }
+    ],
+    "4) Enviar Reporte De Solicitudes Procesadas/4.1) EnviarMailDeReporteDeSolicitudesProcesadas.xaml": [
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "1c8578e6-30c3-4f31-a88e-c7577208cb60",
+        "ActivityIdRef": "Sequence_28",
+        "ActivityId": "1.856",
+        "ActivityName": "4.1) Cambiar estatus a solicitudes procesadas",
         "IsTransient": false
       }
     ]

@@ -167,7 +167,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="Esta secuencia contiene las actividades principales para registrar información de los asegurados y pagadores en el sistema Sii." DisplayName="2.0) AltaDePagadorAseguradoEnElSii" sap:VirtualizedContainerService.HintSize="1595,7618" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Esta secuencia contiene las actividades principales para registrar información de los asegurados y pagadores en el sistema Sii." DisplayName="2.0) AltaDePagadorAseguradoEnElSii" sap:VirtualizedContainerService.HintSize="1595,10265" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="Configuracion" />
       <Variable x:TypeArguments="sd:DataTable" Name="ConsolidadoNCWM_dt" />
@@ -205,7 +205,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch sap2010:Annotation.AnnotationText="Try Catch 2.0) AltaDeAseguradosPagadoresEnElSii" DisplayName="Try Catch 2.0) AltaDeAseguradosPagadoresEnElSii" sap:VirtualizedContainerService.HintSize="1356,7564" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+    <TryCatch sap2010:Annotation.AnnotationText="Try Catch 2.0) AltaDeAseguradosPagadoresEnElSii" DisplayName="Try Catch 2.0) AltaDeAseguradosPagadoresEnElSii" sap:VirtualizedContainerService.HintSize="1356,10211" sap2010:WorkflowViewState.IdRef="TryCatch_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -214,7 +214,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="Try Sequence  2.0) AltaDePagadorAseguradoEnElSii" sap:VirtualizedContainerService.HintSize="1354,6739" sap2010:WorkflowViewState.IdRef="Sequence_12">
+        <Sequence DisplayName="Try Sequence  2.0) AltaDePagadorAseguradoEnElSii" sap:VirtualizedContainerService.HintSize="1354,9386" sap2010:WorkflowViewState.IdRef="Sequence_12">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -318,7 +318,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
           </Sequence>
-          <Sequence sap2010:Annotation.AnnotationText="2.0.2) Procesar cada Row de ArchivoSolicitudesDelDia_dt" DisplayName="2.0.2) Procesar cada Row de ArchivoSolicitudesDelDia_dt" sap:VirtualizedContainerService.HintSize="1320,6071" sap2010:WorkflowViewState.IdRef="Sequence_665">
+          <Sequence sap2010:Annotation.AnnotationText="2.0.2) Procesar cada Row de ArchivoSolicitudesDelDia_dt" DisplayName="2.0.2) Procesar cada Row de ArchivoSolicitudesDelDia_dt" sap:VirtualizedContainerService.HintSize="1320,8718" sap2010:WorkflowViewState.IdRef="Sequence_665">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -326,20 +326,20 @@
                 <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ArchivoSolicitudesDelDia_dt]" DisplayName="Para cada fila de la tabla de datos" sap:VirtualizedContainerService.HintSize="666,5678" sap2010:WorkflowViewState.IdRef="ForEachRow_15">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ArchivoSolicitudesDelDia_dt]" DisplayName="Para cada fila de la tabla de datos" sap:VirtualizedContainerService.HintSize="666,8325" sap2010:WorkflowViewState.IdRef="ForEachRow_15">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRowSolicitud" />
                   </ActivityAction.Argument>
-                  <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="664,5444" sap2010:WorkflowViewState.IdRef="TryCatch_9">
+                  <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="664,8091" sap2010:WorkflowViewState.IdRef="TryCatch_9">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <TryCatch.Try>
-                      <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="662,4850" sap2010:WorkflowViewState.IdRef="Sequence_661">
+                      <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="662,7497" sap2010:WorkflowViewState.IdRef="Sequence_661">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:String" Name="Apellido1_str" />
                           <Variable x:TypeArguments="x:String" Name="Apellido2_str" />
@@ -356,14 +356,14 @@
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <If Condition="[String.IsNullOrEmpty(CurrentRowSolicitud(&quot;POLIZA_NUEVA&quot;).ToString.Trim) AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ESTATUS&quot;).ToString.Trim) AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ERROR&quot;).ToString.Trim)]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="628,4742" sap2010:WorkflowViewState.IdRef="If_153">
+                        <If Condition="[String.IsNullOrEmpty(CurrentRowSolicitud(&quot;POLIZA_NUEVA&quot;).ToString.Trim) AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ESTATUS&quot;).ToString.Trim) AND String.IsNullOrEmpty(CurrentRowSolicitud(&quot;ERROR&quot;).ToString.Trim)]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="628,7389" sap2010:WorkflowViewState.IdRef="If_153">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <If.Then>
-                            <Sequence DisplayName="SI DE PROCEDE EL REGISTRO DE CONTRATANTE" sap:VirtualizedContainerService.HintSize="626,4513" sap2010:WorkflowViewState.IdRef="Sequence_729">
+                            <Sequence DisplayName="SI DE PROCEDE EL REGISTRO DE CONTRATANTE" sap:VirtualizedContainerService.HintSize="626,7160" sap2010:WorkflowViewState.IdRef="Sequence_729">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="x:String" Name="ContratanteID_str" />
                               </Sequence.Variables>
@@ -393,14 +393,14 @@
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:ReadCell>
                               </Sequence>
-                              <If Condition="[String.IsNullOrEmpty(ContratanteID_str)]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="592,4365" sap2010:WorkflowViewState.IdRef="If_154">
+                              <If Condition="[String.IsNullOrEmpty(ContratanteID_str)]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="592,7012" sap2010:WorkflowViewState.IdRef="If_154">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                                 <If.Then>
-                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="590,4061" sap2010:WorkflowViewState.IdRef="Sequence_738">
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="590,6708" sap2010:WorkflowViewState.IdRef="Sequence_738">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -473,7 +473,7 @@
                                         </ui:ReadCell.Result>
                                       </ui:ReadCell>
                                     </Sequence>
-                                    <Sequence sap2010:Annotation.AnnotationText="SII &#xA;SII 2.0.1) Login al Sii&#xA;2.0.2) Ir a Alta / Modificación de Asgturados" DisplayName="SII 2.0.1) Login al Sii / 2.0.2) Ir a Alta / Modificación de Asgturados" sap:VirtualizedContainerService.HintSize="556,779" sap2010:WorkflowViewState.IdRef="Sequence_670">
+                                    <Sequence sap2010:Annotation.AnnotationText="SII &#xA;SII 2.0.1) Login al Sii&#xA;2.0.2) Ir a Alta / Modificación de Asgturados" DisplayName="SII 2.0.1) Login al Sii / 2.0.2) Ir a Alta / Modificación de Asgturados" sap:VirtualizedContainerService.HintSize="556,320" sap2010:WorkflowViewState.IdRef="Sequence_670">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -481,12 +481,12 @@
                                           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Sequence sap2010:Annotation.AnnotationText="2.0.1) Login al Sii" DisplayName="2.0.1) Login al Sii" sap:VirtualizedContainerService.HintSize="450,547" sap2010:WorkflowViewState.IdRef="Sequence_673">
+                                      <Sequence sap2010:Annotation.AnnotationText="2.0.1) Login al Sii" DisplayName="2.0.1) Login al Sii" sap:VirtualizedContainerService.HintSize="450,88" sap2010:WorkflowViewState.IdRef="Sequence_673">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                         <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_5" />
@@ -904,20 +904,20 @@
                                         </ui:WindowScope>
                                       </Sequence>
                                     </Sequence>
-                                    <Sequence DisplayName="REGISTRAR DATOS DEL CONTRATANTE" sap:VirtualizedContainerService.HintSize="556,2888" sap2010:WorkflowViewState.IdRef="Sequence_685">
+                                    <Sequence DisplayName="REGISTRAR DATOS DEL CONTRATANTE" sap:VirtualizedContainerService.HintSize="556,5994" sap2010:WorkflowViewState.IdRef="Sequence_685">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <uix:NApplicationCard sap2010:Annotation.AnnotationText="Abre la forma de Asegurados" AttachMode="ByInstance" DisplayName="Utilizar Aplicación: Asegurados  -  Database: *-  User: *" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522,2805" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="f8dd0916-12ca-442c-812b-2103d18a0b78" Timeout="360" Version="V1">
+                                      <uix:NApplicationCard sap2010:Annotation.AnnotationText="Abre la forma de Asegurados" AttachMode="ByInstance" DisplayName="Utilizar Aplicación: Asegurados  -  Database: *-  User: *" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522,5911" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="f8dd0916-12ca-442c-812b-2103d18a0b78" Timeout="360" Version="V1">
                                         <uix:NApplicationCard.Body>
                                           <ActivityAction x:TypeArguments="x:Object">
                                             <ActivityAction.Argument>
                                               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                             </ActivityAction.Argument>
-                                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="520,2528" sap2010:WorkflowViewState.IdRef="Sequence_713">
+                                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="520,5634" sap2010:WorkflowViewState.IdRef="Sequence_713">
                                               <Sequence.Variables>
                                                 <Variable x:TypeArguments="x:Boolean" Name="CodigoPostal_bln" />
                                               </Sequence.Variables>
@@ -927,14 +927,14 @@
                                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <Sequence DisplayName="ABRIR FORMA DE ASEGURADOS" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="Sequence_716">
+                                              <Sequence DisplayName="ABRIR FORMA DE ASEGURADOS" sap:VirtualizedContainerService.HintSize="486,704" sap2010:WorkflowViewState.IdRef="Sequence_716">
                                                 <Sequence.Variables>
                                                   <Variable x:TypeArguments="ui:UiElement" Name="ClicAsegurados" />
                                                 </Sequence.Variables>
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                    <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
                                                 <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'menu bar  Application'" FoundElement="[ClicAsegurados]" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_8">
@@ -949,7 +949,7 @@
                                                     </ui:Target>
                                                   </ui:WaitUiElementAppear.Target>
                                                 </ui:WaitUiElementAppear>
-                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Aplicación'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_25" InUiElement="[ClicAsegurados]" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Timeout="360" Version="V1">
+                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Aplicación'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,231" sap2010:WorkflowViewState.IdRef="NClick_25" InUiElement="[ClicAsegurados]" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Timeout="360" Version="V1">
                                                   <uix:NClick.Target>
                                                     <uix:TargetAnchorable DesignTimeRectangle="7, 30, 410, 19" ElementType="Toolbar" FullSelectorArgument="&lt;ctrl automationid='MenuBar' name='Aplicación' role='menu bar' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' name='Aplicación' role='menu bar' check:text='Aplicación' /&gt;" Guid="1897d044-2994-4eb9-9be3-26b451f7edd5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZ4AAAAXCAYAAAA7tCmrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGiSURBVHhe7djNbdtAEAZQVeAgtxyda36qTCWpI1XkYKQAF6JAATYZDHZE0iQXpPIOD15+O6RkHfaTfXn//eX64duv69Pzlz/effyafIb/3tPzJ2Ajf4vnx89XANid4gFgKMUDwFCKB4ChFA8AQ21SPJfLpZsfyYj3uPVrnOFzBVhK8WxI8QBMW1087XA8+iG59/vb43M4+mcK8Ba7Fs8ty3nL7uVtrzcTZ2Oes5zHvV4W85jN1e7rPTOvp2aiXt4ygDNaVTz5EMwHZV5X82vzaOm9vTzPTKmeWa2r+SrPqhzgDHYrnuo6q+aW5lE1cy/v7c0195ltXc1XeVtHcQ7gTFYXz9SBGLPefi9v13PyNffOuZ7jdk8W9/I6ZmtygDN6c/FUh1/vsOxlS/PbusrbOl6vyfPMPdVsfl71/LgX83hd5QBntFvxtHXv0JzK4168zj/zTLMkb1nMYzalmo95bya+Vp6NpnKAs1n1r7a9PNrBqigA/jlE8cRv8o90SD/a7wOwhUP+xQPA41I8AAyleAAYSvEAMJTiAWAoxQPAQK/X39Ig538I2wpXAAAAAElFTkSuQmCC" InformativeScreenshot="35b7026aba9f4edb2db3367960d210c6.png" ScopeSelectorArgument="&lt;wnd app='asegurados.exe' cls='ThunderRT6MDIForm' title='Asegurados  -  Database: *  -  User: *' /&gt;" SearchSteps="Selector, FuzzySelector, Image" WaitForReadyArgument="Complete">
                                                       <uix:TargetAnchorable.PointOffset>
@@ -996,7 +996,7 @@
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                 </ui:CommentOut>
-                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'menu item 4'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,181" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Timeout="360" Version="V1">
+                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'menu item 4'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Timeout="360" Version="V1">
                                                   <uix:NClick.Target>
                                                     <uix:TargetAnchorable DesignTimeRectangle="3, 3, 173, 17" FullSelectorArgument="&lt;ctrl name='Asegurados' role='popup menu' /&gt;&lt;ctrl automationid='4' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Asegurados' role='popup menu' /&gt;&lt;ctrl automationid='4' role='menu item' /&gt;" Guid="083ef235-d6c3-423c-bbe1-763d28789550" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALEAAAAVCAYAAAAJpA89AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPDSURBVGhD7ZTJT1RBEMb9f2RPXOJdXA4mHoyaGDQaXFiHRFGUi4ox8aARBTUKglGQYUZiBIFwVNGrB0NEWcer8U94Tj2stlL9vYWZYeJgf8kvVV3vdb+qni+zZeZzxnM4ShlnYkfJY0w8l/ll+LLy0+H4J5E+tUx8tW/C0DUw5XD8k0ifWiauvzXscJQUlokbu187HCWFZeIDHY8NBzv784YUpxYH3sdRE1QPg/dwDKoVAnQeqjmikT61TFxz5o6h+vTtvCEF1TjGhd/nqAmqh6H36PVGUsxvbTakTy0Tlzc8KBgkGaPqUfD7LMorGh/6sHgtqWx6FAgpbJ0rqA9E2bneSLae7YmFvKv/CcvEFS1PDJWtfXnhG0JEVCfJOotr8pnMSfo5CdVIVYl+gxbX5DNZ03uq254apILq8gx0nn7O4npc5OybHelT28TtQwWBFLTmnCNCP5NrzknlF15YUedyzRHVy84/N1HmHGVdnsFwnWNQnSOh5yHpOR3hWCau7Egaqq+kcoYUtOaco6xLybp+j2NNZ9qKOq+6POqvZWR4TaKZOcqcI0KLa/o9WedI6B64L7SOQt7RZofvj7BMvO3alM/269PezhvT3o4uyifXDZJ8Rudy1Dmv6fuEzPWatOvmjE9QLtccUV33wTlHRs7BuVyTZL+yVxnj1uU3wpA95ovsIwy0V4N6zRU6j75L/mSvWiau7Z719tz76LOvh+IHb/fdd+uCFFYn1Xa/N1HnvN57f9ZEiayRqE8iKN/f+8lfy8jwmkSzcpQ5R1mX86D59PsoEnIejnI2ivxuMZF9hCF/syDkHeUL9Ua/KXuU/GqZuG543nBsaM6re/nVO5H8ti5IYXXS8ZF5H51L0bc5SmTtVHrRQNJrVv3YskGLaydTCyainMX9op5RXc/POQt9T67lTGHIvsKQd5kv6HwNz1wI6Ju+L4VPLRM3Jpf+MvLdp3l0MRat6eVYtI2tRpJ4tRKLpuRCJC2ppVig8xGoXw3ah0B9aNBdI9DsCPQNDeoVgWbXIA8g0Ewa9qT0qW3iiVWvYXxljTfZTeNLXtPEcixaJldj0TqViQTtQzS/XYkE7UMkpn8UHdRHrqDfBIHuSIPOR6DfToP2IVCvGvIj+ZI9Sn61TZzMvviHppHsv0A2toxmh4pBayo7VIFA5+cKOh+RSGeKDuojV9DsGw3qI1fQ+RryI/lS+tQy8aH2QcPhiwPekUuD3tGOZwWFziwU1KNjDXTXCHSPGwnqIVfoPJpV+tQyscNRqjgTO0qcjPcbwM/0wR3aNlsAAAAASUVORK5CYII=" InformativeScreenshot="cd3059e6d429d3f7e496d4f1039e1f67.png" ScopeSelectorArgument="&lt;wnd app='asegurados.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" WaitForReadyArgument="Complete" />
                                                   </uix:NClick.Target>
@@ -1008,17 +1008,17 @@
                                                   </sap:WorkflowViewStateService.ViewState>
                                                 </uix:NClick>
                                               </Sequence>
-                                              <Sequence sap2010:Annotation.AnnotationText="PANTALLA DATOS GENERALES" DisplayName="PANTALLA DATOS GENERALES" sap:VirtualizedContainerService.HintSize="486,88" sap2010:WorkflowViewState.IdRef="Sequence_718">
+                                              <Sequence sap2010:Annotation.AnnotationText="PANTALLA DATOS GENERALES" DisplayName="PANTALLA DATOS GENERALES" sap:VirtualizedContainerService.HintSize="486,2547" sap2010:WorkflowViewState.IdRef="Sequence_718">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                                                    <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="1" DisplayName="Escribir en 'APELLIDO1'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Text="[Apellido1_str.ToString.ToUpper.Trim]" Timeout="360" Version="V1">
+                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="1" DisplayName="Escribir en 'APELLIDO1'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Text="[Apellido1_str.ToString.ToUpper.Trim]" Timeout="30" Version="V1">
                                                   <uix:NTypeInto.Target>
-                                                    <uix:TargetAnchorable DesignTimeRectangle="20, 66, 89, 19" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;wnd cls='ThunderRT6TextBox' idx='23' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ThunderRT6TextBox' /&gt;" Guid="db26d3d8-0bfa-4bc1-bbd4-6e71c3984a3b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF0AAAAXCAYAAABpskPJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACASURBVGhD7dSxDcAgDERRr8tW7MYC3oDIFEgoSkSBueZ/6UTh7hWYu3d2d6ALNtFrrSxxUThHC3ophSWstTawP9HpfFvoZjZeOhPogkAXBLog0AWBLgh0QaALAl0Q6IJAFwS6INAFbaHT2X7R48hyFr3QKb9wjt9korN7A/36vD8IupAnzbGdpQAAAABJRU5ErkJggg==" InformativeScreenshot="ca7ec93c06bae7fe29b526d2d5f39366.png" ScopeSelectorArgument="&lt;wnd app='asegurados.exe' cls='ThunderRT6FormDC' title='Asegurados' /&gt;" SearchSteps="Selector, FuzzySelector, Image" WaitForReadyArgument="Complete">
+                                                    <uix:TargetAnchorable DesignTimeRectangle="20, 66, 89, 19" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='ThunderRT6TextBox' idx='23' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ThunderRT6TextBox' /&gt;" Guid="db26d3d8-0bfa-4bc1-bbd4-6e71c3984a3b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF0AAAAXCAYAAABpskPJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACASURBVGhD7dSxDcAgDERRr8tW7MYC3oDIFEgoSkSBueZ/6UTh7hWYu3d2d6ALNtFrrSxxUThHC3ophSWstTawP9HpfFvoZjZeOhPogkAXBLog0AWBLgh0QaALAl0Q6IJAFwS6INAFbaHT2X7R48hyFr3QKb9wjt9korN7A/36vD8IupAnzbGdpQAAAABJRU5ErkJggg==" InformativeScreenshot="ca7ec93c06bae7fe29b526d2d5f39366.png" ScopeSelectorArgument="&lt;wnd app='asegurados.exe' cls='ThunderRT6FormDC' title='Asegurados' /&gt;" SearchSteps="Selector, FuzzySelector, Image" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.None]">
                                                       <uix:TargetAnchorable.PointOffset>
                                                         <uix:PointOffset Position="TopLeft" X="43" Y="10" />
                                                       </uix:TargetAnchorable.PointOffset>
@@ -1031,7 +1031,7 @@
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                 </uix:NTypeInto>
-                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'unchecked'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Timeout="30" Version="V1">
+                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'unchecked'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Timeout="30" Version="V1">
                                                   <uix:NClick.Target>
                                                     <uix:TargetAnchorable DesignTimeRectangle="110, 66, 20, 19" ElementType="Button" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;wnd cls='ThunderRT6CommandButton' idx='8' title='...' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ThunderRT6CommandButton' title='...' check:text='unchecked' /&gt;" Guid="b1b711e0-2c89-4c72-9cdd-134bdf1ec972" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAXCAYAAAARIY8tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABcSURBVEhL7dGxCQAxCIVh13Urd3MBN/DOIuGKkAc5hRQKP0gsviJkZl5ZPeDvxJI5zLwGVPV3IrIHxuG0BmANwBqA3QcQEdy/9R/AtkAcM1oC8ZjZBMZSVTFg/gDPRNcfXhlvkwAAAABJRU5ErkJggg==" InformativeScreenshot="8cb864d415eb81a0c3240660e2903711.png" ScopeSelectorArgument="&lt;wnd app='asegurados.exe' cls='ThunderRT6FormDC' title='Asegurados' /&gt;" SearchSteps="Selector, FuzzySelector, Image" WaitForReadyArgument="Complete">
                                                       <uix:TargetAnchorable.PointOffset>
@@ -1046,7 +1046,7 @@
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                 </uix:NClick>
-                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Nuevo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Timeout="30" Version="V1">
+                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Nuevo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Timeout="30" Version="V1">
                                                   <uix:NClick.Target>
                                                     <uix:TargetAnchorable DesignTimeRectangle="292, 332, 64, 21" ElementType="Button" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;wnd cls='ThunderRT6CommandButton' title='Nuevo' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ThunderRT6CommandButton' title='Nuevo' check:text='Nuevo' /&gt;" Guid="dcb73316-3423-41fa-b5d0-4f1ee62ccb2c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEQAAAAZCAYAAACIA4ibAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEsSURBVFhH7ZXRrcMgDEWZyvP4N5OwRv7ZhSWyABu4mMaJcdN+vD6kRrjSUcqtheITk4ZSCjknLsRwCJn5syzLtZBt26ZjXdfPQmQ9Cy7E4EIMLsQwTAiEQBDzmeVIAJGyqvlFxgkBJASgmPfMhdTmE1LA9MxEiBWj1/y9TlZo7DJbhpSkviRCWXf1uubvjBVSrwkDYaqZNK4FMMdaNdrlag/OD8lcf+Y5win/C4YLeRHxTghfj6dtnrqatIRqcuw+/zAl44VU+OlhVI2/E6LzjkyxvpMST4XU3FmIjHeQxtWNt1Fvtf0RsDSpiOqf665HRuCx37N28/uxAG5SapssdWT0HlcT0NV/Px3MMCF3xYUYXIjBhRhciOGjEP5xRi6FcDgzL0KcJy6ko9AD3yqxVDTX9A4AAAAASUVORK5CYII=" InformativeScreenshot="4ca2ac52d33377ea954adf5e06657141.png" ScopeSelectorArgument="&lt;wnd app='asegurados.exe' cls='ThunderRT6FormDC' title='[CONSULTA DE ASEGURADOS]' /&gt;" SearchSteps="Selector, FuzzySelector, Image" WaitForReadyArgument="Complete">
                                                       <uix:TargetAnchorable.PointOffset>
@@ -1055,7 +1055,7 @@
                                                     </uix:TargetAnchorable>
                                                   </uix:NClick.Target>
                                                 </uix:NClick>
-                                                <If Condition="[String.IsNullOrEmpty(Apellido2_str) = False]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="410.4,491.2" sap2010:WorkflowViewState.IdRef="If_152">
+                                                <If Condition="[String.IsNullOrEmpty(Apellido2_str) = False]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="452,526" sap2010:WorkflowViewState.IdRef="If_152">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1063,13 +1063,13 @@
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                   <If.Then>
-                                                    <Sequence sap:VirtualizedContainerService.HintSize="376.8,308" sap2010:WorkflowViewState.IdRef="Sequence_724">
+                                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,297" sap2010:WorkflowViewState.IdRef="Sequence_724">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
-                                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="1" DisplayName="Escribir en 'APELLIDO 2'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="333.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Text="[Apellido2_str.ToString.ToUpper.Trim]" Timeout="360" Version="V1">
+                                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="1" DisplayName="Escribir en 'APELLIDO 2'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,237" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Text="[Apellido2_str.ToString.ToUpper.Trim]" Timeout="360" Version="V1">
                                                         <uix:NTypeInto.Target>
                                                           <uix:TargetAnchorable DesignTimeRectangle="302, 142, 173, 19" FullSelectorArgument="&lt;wnd cls='ThunderRT6TextBox' idx='21' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ThunderRT6TextBox' /&gt;" Guid="554a2897-ddf9-4815-abaa-298f6bc6a67b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALEAAAAXCAYAAABEbK42AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB4SURBVHhe7dKxDYQwAARB2nVX7s0NuAMQySePiFlpRrro0j323qdZeSK2/H4RzznNMrs9RjzGMPv81lrvEcPXiZg8EZMnYvJETJ6IyRMxeSImT8TkiZg8EZMnYvJETJ6IyRMxea8R36dZYY8RQ81fxGbVidji2+cF6HeBItJzEfIAAAAASUVORK5CYII=" InformativeScreenshot="89098afde7f93a0f476261ac454e6697.png" ScopeSelectorArgument="&lt;wnd app='asegurados.exe' cls='ThunderRT6FormDC' title='Asegurados' /&gt;" SearchSteps="Selector, FuzzySelector, Image" WaitForReadyArgument="Complete">
                                                             <uix:TargetAnchorable.PointOffset>
@@ -1081,7 +1081,7 @@
                                                     </Sequence>
                                                   </If.Then>
                                                   <If.Else>
-                                                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_725">
+                                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_725">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1090,7 +1090,7 @@
                                                     </Sequence>
                                                   </If.Else>
                                                 </If>
-                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="1" DisplayName="Escribir en 'NOMBRE'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="410.4,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Text="[Nombre_str.ToString.ToUpper.Trim]" Timeout="30" Version="V1">
+                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="1" DisplayName="Escribir en 'NOMBRE'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Text="[Nombre_str.ToString.ToUpper.Trim]" Timeout="30" Version="V1">
                                                   <uix:NTypeInto.Target>
                                                     <uix:TargetAnchorable DesignTimeRectangle="482, 142, 176, 19" FullSelectorArgument="&lt;wnd cls='ThunderRT6TextBox' idx='20' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ThunderRT6TextBox' /&gt;" Guid="47bb049e-47c8-4434-b3c6-352856c4e0be" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALQAAAAXCAYAAACiRWVyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB5SURBVHhe7dKxDcMwAAPBrKuttJsW0AYO3KSJ4V6PO4AV2//svS+zygRtqf2CnnOaHbnbY9BjDLOjttZ6DxpOImhSBE2KoEkRNCmCJkXQpAiaFEGTImhSBE2KoEkRNCmCJkXQpLwGfZ9mp+0xaDjZX9BmhQnaQtvXF1Z9iGhwwvGEAAAAAElFTkSuQmCC" InformativeScreenshot="51f9062e3c8446dd78d0894261746b16.png" ScopeSelectorArgument="&lt;wnd app='asegurados.exe' cls='ThunderRT6FormDC' title='Asegurados' /&gt;" SearchSteps="Selector, FuzzySelector, Image" WaitForReadyArgument="Complete">
                                                       <uix:TargetAnchorable.PointOffset>
@@ -1104,7 +1104,7 @@
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                 </uix:NTypeInto>
-                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en FECHA NAC" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="410.4,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Text="[out_Config(&quot;FechNacGenEnPantallaAsegurados&quot;).ToString+&quot;[k(tab)]&quot;]" Timeout="30" Version="V1">
+                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en FECHA NAC" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Text="[out_Config(&quot;FechNacGenEnPantallaAsegurados&quot;).ToString+&quot;[k(tab)]&quot;]" Timeout="30" Version="V1">
                                                   <uix:NTypeInto.Target>
                                                     <uix:TargetAnchorable DesignTimeRectangle="36, 187, 145, 19" FullSelectorArgument="&lt;wnd cls='ThunderRT6TextBox' idx='12' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ThunderRT6TextBox' /&gt;" Guid="a6e24348-6bf1-4fa4-a421-939d613866dc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJUAAAAXCAYAAAAC2g2cAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVGhD7dKxDYNAAARBt/td0ds38B1gkZAYIYE3nJEuunQ/a63drJyoLN8Z1bZtZq93uIxqjGH2eHPO+6jgKVGRExU5UZETFTlRkRMVOVGRExU5UZETFTlRkRMVOVGRExW526iO0+zNLqOCf/1EZVZNVBZv7V8M1+fgkNSVHwAAAABJRU5ErkJggg==" InformativeScreenshot="c78685ab8ca541bb92026c1993945f84.png" ScopeSelectorArgument="&lt;wnd app='asegurados.exe' cls='ThunderRT6FormDC' title='Asegurados' /&gt;" SearchSteps="Selector, FuzzySelector, Image" WaitForReadyArgument="Complete">
                                                       <uix:TargetAnchorable.PointOffset>
@@ -1118,7 +1118,7 @@
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                 </uix:NTypeInto>
-                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'RFC'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Text="[out_Config(&quot;RFCGenEnPantallaAsegurados&quot;).ToString+&quot;[k(tab)]&quot;]" Timeout="30" Version="V1">
+                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'RFC'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="f8dd0916-12ca-442c-812b-2103d18a0b78" Text="[out_Config(&quot;RFCGenEnPantallaAsegurados&quot;).ToString+&quot;[k(tab)]&quot;]" Timeout="30" Version="V1">
                                                   <uix:NTypeInto.Target>
                                                     <uix:TargetAnchorable DesignTimeRectangle="36, 227, 145, 19" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;wnd cls='ThunderRT6TextBox' idx='14' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ThunderRT6TextBox' /&gt;" Guid="7f12231a-b4cb-43ea-b3cb-a2fa847aaacc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJUAAAAXCAYAAAAC2g2cAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVGhD7dKxDYNAAARBt/td0ds38B1gkZAYIYE3nJEuunQ/a63drJyoLN8Z1bZtZq93uIxqjGH2eHPO+6jgKVGRExU5UZETFTlRkRMVOVGRExU5UZETFTlRkRMVOVGRExW526iO0+zNLqOCf/1EZVZNVBZv7V8M1+fgkNSVHwAAAABJRU5ErkJggg==" InformativeScreenshot="f13c25fdbc4226a67597120f374c9291.png" ScopeSelectorArgument="&lt;wnd app='asegurados.exe' cls='ThunderRT6FormDC' title='Asegurados' /&gt;" SearchSteps="Selector, FuzzySelector, Image" WaitForReadyArgument="Complete">
                                                       <uix:TargetAnchorable.PointOffset>
@@ -1128,7 +1128,7 @@
                                                   </uix:NTypeInto.Target>
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                 </uix:NTypeInto>

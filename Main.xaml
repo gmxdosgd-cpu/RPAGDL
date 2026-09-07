@@ -99,7 +99,7 @@
       <AssemblyReference>NPOI.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart sap2010:Annotation.AnnotationText="Cambos:&#xA;**20/May/25 Arreglo a Plus&#xA;" DisplayName="Work Flow Global" sap:VirtualizedContainerService.HintSize="1919,814" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart sap2010:Annotation.AnnotationText="&#xA;Cambos:&#xA;**20/May/25 Arreglo a Plus&#xA;" DisplayName="Work Flow Global" sap:VirtualizedContainerService.HintSize="1601,516" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="NewTransaction" />
       <Variable x:TypeArguments="x:String" Name="Workflow_str" />
@@ -124,7 +124,7 @@
     <Flowchart.StartNode>
       <x:Reference>__ReferenceID9</x:Reference>
     </Flowchart.StartNode>
-    <FlowStep x:Name="__ReferenceID9">
+    <FlowStep x:Name="__ReferenceID9" sap2010:WorkflowViewState.IdRef="FlowStep_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">90,7.59999999999999</av:Point>
@@ -227,7 +227,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <FlowDecision.True>
-            <FlowStep x:Name="__ReferenceID1">
+            <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">25,235</av:Point>
@@ -331,7 +331,7 @@
             </FlowStep>
           </FlowDecision.True>
           <FlowDecision.False>
-            <FlowStep x:Name="__ReferenceID2">
+            <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">560,105.6</av:Point>
@@ -418,7 +418,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <FlowDecision.False>
-                    <FlowStep x:Name="__ReferenceID3">
+                    <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_4">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">610,235.6</av:Point>
@@ -426,13 +426,13 @@
                           <av:PointCollection x:Key="ConnectorLocation">665,305.6 665,335.6 504.8,335.6 504.8,346.4</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="2 Registra Datos en Sii" sap:VirtualizedContainerService.HintSize="486,1493" sap2010:WorkflowViewState.IdRef="Sequence_52">
+                      <Sequence DisplayName="2 Registra Datos en Sii" sap:VirtualizedContainerService.HintSize="520,1773" sap2010:WorkflowViewState.IdRef="Sequence_52">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Assign DisplayName="Workflow_str" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_33">
+                        <Assign DisplayName="Workflow_str" sap:VirtualizedContainerService.HintSize="486,175" sap2010:WorkflowViewState.IdRef="Assign_33">
                           <Assign.To>
                             <OutArgument x:TypeArguments="x:String">[Workflow_str]</OutArgument>
                           </Assign.To>
@@ -440,7 +440,7 @@
                             <InArgument x:TypeArguments="x:String">["2) Registro de Información en el Sii"]</InArgument>
                           </Assign.Value>
                         </Assign>
-                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke ManejoDeMensajesErrores" sap:VirtualizedContainerService.HintSize="452,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="90) CommonFlows\ManejoDeMensajesErrores.xaml">
+                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Invoke ManejoDeMensajesErrores" sap:VirtualizedContainerService.HintSize="486,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="90) CommonFlows\ManejoDeMensajesErrores.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
                             <InArgument x:TypeArguments="x:String" x:Key="i_Mensaje_str">["INI: "+Workflow_str.ToString]</InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="i_TipoMensaje">i</InArgument>
@@ -453,32 +453,26 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                         </ui:InvokeWorkflowFile>
-                        <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                        <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="486,337" sap2010:WorkflowViewState.IdRef="CommentOut_8">
                           <ui:CommentOut.Body>
-                            <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                            <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_62">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_40">
+                              <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_43">
                                 <Assign.To>
                                   <OutArgument x:TypeArguments="x:String">[ArchivoSolicitudesDelDia_str]</OutArgument>
                                 </Assign.To>
                                 <Assign.Value>
-                                  <InArgument x:TypeArguments="x:String">["C:\uipath\RIBU22GMX02_EmitPolizaCasaHabNovomar\ArchivosDeSolicitudes\Solicitudes_210820261030.xlsx"]</InArgument>
+                                  <InArgument x:TypeArguments="x:String">["C:\uipath\RIBU22GMX02_EmitPolizaCasaHabNovomar\ArchivosDeSolicitudes\Solicitudes_010920261601.xlsx"]</InArgument>
                                 </Assign.Value>
                               </Assign>
                             </Sequence>
                           </ui:CommentOut.Body>
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
                         </ui:CommentOut>
-                        <If Condition="[Configuracion(&quot;EjecutarModulo2&quot;).ToString.Equals(&quot;S&quot;)]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="452,856" sap2010:WorkflowViewState.IdRef="If_2">
+                        <If Condition="[Configuracion(&quot;EjecutarModulo2&quot;).ToString.Equals(&quot;S&quot;)]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="486,856" sap2010:WorkflowViewState.IdRef="If_2">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -567,7 +561,7 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <FlowDecision.False>
-                            <FlowStep x:Name="__ReferenceID6">
+                            <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_5">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <av:Point x:Key="ShapeLocation">600,385.6</av:Point>
@@ -670,7 +664,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <FlowDecision.False>
-                                    <FlowStep x:Name="__ReferenceID7">
+                                    <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_6">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">590,513.6</av:Point>
@@ -678,7 +672,7 @@
                                           <av:PointCollection x:Key="ConnectorLocation">645.2,584 645.2,614 80.2,614 80.2,305.4</av:PointCollection>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Sequence sap2010:Annotation.AnnotationText="4 Envíar Mail de Reporte de Solicitudes Procesadas" DisplayName="4 Envíar Mail de Reporte de Solicitudes Procesadas" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                      <Sequence sap2010:Annotation.AnnotationText="4 Envíar Mail de Reporte de Solicitudes Procesadas" DisplayName="4 Envíar Mail de Reporte de Solicitudes Procesadas" sap:VirtualizedContainerService.HintSize="486,920" sap2010:WorkflowViewState.IdRef="Sequence_16">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>

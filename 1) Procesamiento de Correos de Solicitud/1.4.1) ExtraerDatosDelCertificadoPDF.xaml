@@ -165,7 +165,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="Esta secuencia extrae los datos y especificaciones del certificado PDF" DisplayName="1.4.1) ExtraerDatosDelCertificadoPDF" sap:VirtualizedContainerService.HintSize="1277,9168" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Esta secuencia extrae los datos y especificaciones del certificado PDF" DisplayName="1.4.1) ExtraerDatosDelCertificadoPDF" sap:VirtualizedContainerService.HintSize="1142,7871" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="Configuracion" />
       <Variable x:TypeArguments="sd:DataTable" Name="ConsolidadoNCWM_dt" />
@@ -206,7 +206,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="800,57" sap2010:WorkflowViewState.IdRef="CommentOut_107">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="834,57" sap2010:WorkflowViewState.IdRef="CommentOut_107">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="628,7732" sap2010:WorkflowViewState.IdRef="Sequence_1344">
           <sap:WorkflowViewStateService.ViewState>
@@ -42762,7 +42762,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="800,57" sap2010:WorkflowViewState.IdRef="CommentOut_318">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="834,57" sap2010:WorkflowViewState.IdRef="CommentOut_318">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="788,10748" sap2010:WorkflowViewState.IdRef="Sequence_3516">
           <sap:WorkflowViewStateService.ViewState>
@@ -85324,7 +85324,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="800,9000" sap2010:WorkflowViewState.IdRef="TryCatch_54">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="834,7703" sap2010:WorkflowViewState.IdRef="TryCatch_54">
       <TryCatch.Variables>
         <Variable x:TypeArguments="x:Double" Name="CoutaRiesgoConteHidro_dbl" />
         <Variable x:TypeArguments="x:Double" Name="CoutaRiesgoEdifHidro_dbl" />
@@ -85339,7 +85339,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="Try Sequence" sap:VirtualizedContainerService.HintSize="798,8151" sap2010:WorkflowViewState.IdRef="Sequence_2404">
+        <Sequence DisplayName="Try Sequence" sap:VirtualizedContainerService.HintSize="832,6854" sap2010:WorkflowViewState.IdRef="Sequence_2404">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="MessageSeq_str" />
             <Variable x:TypeArguments="x:Double" Name="RiesgoHidroPrima_dbl" />
@@ -85354,7 +85354,7 @@
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="variables" sap:VirtualizedContainerService.HintSize="764,57" sap2010:WorkflowViewState.IdRef="Sequence_2810">
+          <Sequence DisplayName="variables" sap:VirtualizedContainerService.HintSize="798,57" sap2010:WorkflowViewState.IdRef="Sequence_2810">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -85459,7 +85459,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
           </Sequence>
-          <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Genexus" sap:VirtualizedContainerService.HintSize="764,6223" sap2010:WorkflowViewState.IdRef="Sequence_3530">
+          <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Genexus" sap:VirtualizedContainerService.HintSize="798,4926" sap2010:WorkflowViewState.IdRef="Sequence_3530">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -85467,20 +85467,20 @@
                 <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Utilizar Navegador Chrome: Iniciar sesión en la cuenta" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="730,6083" sap2010:WorkflowViewState.IdRef="NApplicationCard_20" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Version="V2" WindowResize="Maximize">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Utilizar Navegador Chrome: Iniciar sesión en la cuenta" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="764,4786" sap2010:WorkflowViewState.IdRef="NApplicationCard_20" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Version="V2" WindowResize="Maximize">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="728,5880" sap2010:WorkflowViewState.IdRef="Sequence_3592">
+                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="728,4583" sap2010:WorkflowViewState.IdRef="Sequence_3592">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="694,5820" sap2010:WorkflowViewState.IdRef="Sequence_3593">
+                    <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="694,4523" sap2010:WorkflowViewState.IdRef="Sequence_3593">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:Boolean" Name="condicion" />
                         <Variable x:TypeArguments="si:FileInfo" Name="ArchivoGeneral" />
@@ -85493,7 +85493,7 @@
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="660,5737" sap2010:WorkflowViewState.IdRef="Sequence_3604">
+                      <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="660,4440" sap2010:WorkflowViewState.IdRef="Sequence_3604">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -85657,10 +85657,10 @@
                             </Sequence>
                           </TryCatch.Finally>
                         </TryCatch>
-                        <Sequence DisplayName="Secuencia en caso de error: Navegar a Chat Datos Generales" sap:VirtualizedContainerService.HintSize="626,1354" sap2010:WorkflowViewState.IdRef="Sequence_3619">
+                        <Sequence DisplayName="Secuencia en caso de error: Navegar a Chat Datos Generales" sap:VirtualizedContainerService.HintSize="626,57" sap2010:WorkflowViewState.IdRef="Sequence_3619">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
@@ -85692,7 +85692,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </Assign>
-                          <ui:InterruptibleWhile CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="IntentosChat_int &lt; 2 AndAlso Not ChatExitoso_bln" Condition="[IntentosChat_int &lt; 2 AndAlso Not ChatExitoso_bln]" DisplayName="While" sap:VirtualizedContainerService.HintSize="522,912" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_117">
+                          <ui:InterruptibleWhile CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="IntentosChat_int &lt; 2 AndAlso Not ChatExitoso_bln" Condition="[IntentosChat_int &lt; 2 AndAlso Not ChatExitoso_bln]" DisplayName="While" sap:VirtualizedContainerService.HintSize="522,889" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_117">
                             <ui:InterruptibleWhile.Body>
                               <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="520,759" sap2010:WorkflowViewState.IdRef="Sequence_3624">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -85700,7 +85700,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="486,699" sap2010:WorkflowViewState.IdRef="TryCatch_90">
+                                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="486,676" sap2010:WorkflowViewState.IdRef="TryCatch_90">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -85728,7 +85728,7 @@
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                       </Assign>
-                                      <Sequence DisplayName="Navegar a Chat Datos Generales" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_3599">
+                                      <Sequence DisplayName="Navegar a Chat Datos Generales" sap:VirtualizedContainerService.HintSize="554,5287" sap2010:WorkflowViewState.IdRef="Sequence_3599">
                                         <Sequence.Variables>
                                           <Variable x:TypeArguments="ui:UiElement" Name="download" />
                                         </Sequence.Variables>
@@ -85738,10 +85738,10 @@
                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <TryCatch DisplayName="Click 'New conversation'" sap:VirtualizedContainerService.HintSize="520,57" sap2010:WorkflowViewState.IdRef="TryCatch_93">
+                                        <TryCatch DisplayName="Click 'New conversation'" sap:VirtualizedContainerService.HintSize="452,877" sap2010:WorkflowViewState.IdRef="TryCatch_93">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
@@ -85772,9 +85772,9 @@
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
-                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Icon'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_205" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Version="V5">
+                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Icon'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="334,162" sap2010:WorkflowViewState.IdRef="NClick_205" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Version="V5">
                                                     <uix:NClick.Target>
-                                                      <uix:TargetAnchorable BrowserURL="gmx.saia.ai/chat" CVScreenId="364cd994-86b6-4f22-a79b-126a05f50b63" CvElementArea="13, 161, 26, 24" CvType="Icon" DesignTimeRectangle="11, 159, 30, 28" ElementType="Icon" ElementVisibilityArgument="Interactive" Guid="f9447137-39a7-4c63-b142-495db196c199" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABhSURBVEhL7ZKxDcAgDASzReQBEPOE/XcxeupvksBD8Zau5E4yvu6I3IHDMhyWQcOl1nxa+w08zA9oGI9mDDzMD84KK3B44Kv+Oq/D21atwOEB/mfGwMP84Kywr3oFDouI7CpBf1QrooUiAAAAAElFTkSuQmCC" InformativeScreenshot="b9131f9072b546c1d8361db51741dffa.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Globant Enterprise AI' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" />
+                                                      <uix:TargetAnchorable BrowserURL="gmx.saia.ai/chat" DesignTimeRectangle="13, 160, 24, 24" ElementVisibilityArgument="Interactive" Guid="6db53639-3f04-4975-a83e-b97eb69bdc27" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABPSURBVEhLYxCXlPxPSzxqAUE8zCxQVVf/HxgURDEGmYPVApAkNQDInIGxgBZ4mFkwmopgAKcFNA8iWuBhZgEo/KgBQOYMjAWjqQgTS/4HAAqrLQUX82IAAAAAAElFTkSuQmCC" InformativeScreenshot="e7ef4513748852b197e1dc7155d97e82.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Globant Enterprise AI' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" />
                                                     </uix:NClick.Target>
                                                   </uix:NClick>
                                                   <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="7" DisplayName="Click 'New conversation'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_206" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Timeout="2" Version="V5">
@@ -85823,12 +85823,12 @@
                                             </uix:TargetAnchorable>
                                           </uix:NClick.Target>
                                         </uix:NClick>
-                                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'chrome.exe Globant Ente…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,194" sap2010:WorkflowViewState.IdRef="NClick_187" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Version="V5">
+                                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'chrome.exe Globant Ente…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,193.6" sap2010:WorkflowViewState.IdRef="NClick_187" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Version="V5">
                                           <uix:NClick.Target>
                                             <uix:TargetAnchorable BrowserURL="gmx.saia.ai/chat" DesignTimeRectangle="509, 946, 53, 44" ElementVisibilityArgument="Interactive" Guid="fe72dcc4-2105-421a-ac3e-33c3661b6a5e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADUAAAAsCAYAAADFP/AjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM1SURBVGhD7ZdbTxNBFID9DQVskbZctIACIkUgUkNA1HIJEGxBRGggFaWIQBCq2AJKBS1q9MEYjSHBKCIqUYEUA4q3GAyggtefc+w5zTas7YNuZ2vW7MOX7NlzOpkvs3NmukGhUMD/hiwlFWQpqSBLSQVZSirIUlJBlvpTIiIjIHW3AYwtzVDW2QHxKduC1okFc6nY5CTonnkKwz+/+Ln4bRXyLXW8OpVGzYtZwlyq/dE4nP/4ATKLjRRrE3Vw/N4ouL+vQlp+Hr0r7+4E++w0rej637KCqVRSdhatjNF2jPdeGRMDvW9e0gqiSFGrjer2Nll5daxgKpVTUUaTTTHkBuRyzSbKFVobIDIqCnrmZ2Fg6T1Ea7UBtaHCVEqnz6CJF1jqKY5NTgaT84w/3/7wvk9Eo6HPE2urB/r9eVYw31OdzybB6f3UopRKyDt8yCfZYKHc1pxsig+6zlLcdPsm7TVdxg7eGKHCXCp9TwFNHFs5xienJnmfWa17iLphol5PK3nh6yew3RnhjREqzKWQI7duwODnJep8eF6hZM3gAOViEuLBtbIIreN3Ka7ssVM+q7SEN0YoiCKVkJZGK1B/ZZjixuvXwP1jjfYcxtgdUQQby8boaOh9t+BtHB5mLV4UKcTc76SJ4z7S6nQwtLYCbQ/GKOfrfh5wvp6nZ0O1mWqNzUcDxhGCaFJ4Y8C9hB0P4wp7F03cUGWieGdJEcXFrS0Uo7BreRE2xcX5xxCKaFJIobWRJr7LVOn7zN4uEPiMedxXp57P0DN3cB9wnOaNIQRRpXCP2D1T4Hg152vxtTU0ca5pdDyeAMfCnL++bWKMFwtFVCkks8h3yHKfGa4Oxhx4D+Rq8aDGd1wsFNGlENvoCF1y1ZsT6DaBDcFy9ZK3+5Xz6moGXTC0usx7J4SwSGErx5sDHrzB8hxd00/851cohEUKqTrXR58WHsbB8vh/C/O/r54QwialUqu9d8IXdJvAvaPfv8/bBVV0fTL3OUio7rI76G//lrBJIfGpKdThUGA9eDCzaOUcYZXi2JK+nf4glnacoKsSrmKwOqH8EymxkaWkgiwlFWQpqSBLSQVZShoo4Bc/MedcqTSotgAAAABJRU5ErkJggg==" InformativeScreenshot="fe1bac398a387c7c436151acb2074259.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Globant Enterprise AI' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" />
                                           </uix:NClick.Target>
                                         </uix:NClick>
-                                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayBefore="2" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,278" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_23" InteractionMode="HardwareEvents" ScopeIdentifier="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Shortcuts="[d(hk)][k(Up)][u(hk)][d(hk)][k(Up)][u(hk)][d(hk)][k(Up)][u(hk)][d(hk)][k(Up)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V5" />
+                                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayBefore="2" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,276.8" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_23" InteractionMode="HardwareEvents" ScopeIdentifier="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Shortcuts="[d(hk)][k(Up)][u(hk)][d(hk)][k(Up)][u(hk)][d(hk)][k(Up)][u(hk)][d(hk)][k(Up)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V5" />
                                         <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayBefore="3" DisplayName="Type Into 'Edit'" sap:VirtualizedContainerService.HintSize="520,188" sap2010:WorkflowViewState.IdRef="TypeInto_36" Text="[System.IO.Path.Combine(&#xA;    io_SolicitudActual_rw(&quot;CARPETA&quot;).ToString,&#xA;    io_SolicitudActual_rw(&quot;ARCH_CERTIFICADO_PDF&quot;).ToString&#xA;) &amp; &quot;[k(enter)]&quot;]">
                                           <ui:TypeInto.Target>
                                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ffc7d7b6-640f-46a3-8bf6-54e535dc8680" InformativeScreenshot="0bbd54e162b122c05cc1d7f6bc95b73c" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
@@ -86154,9 +86154,9 @@
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
-                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Icon'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_208" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Version="V5">
+                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Icon'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_210" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Version="V5">
                                                     <uix:NClick.Target>
-                                                      <uix:TargetAnchorable BrowserURL="gmx.saia.ai/chat" CVScreenId="364cd994-86b6-4f22-a79b-126a05f50b63" CvElementArea="13, 161, 26, 24" CvType="Icon" DesignTimeRectangle="11, 159, 30, 28" ElementType="Icon" ElementVisibilityArgument="Interactive" Guid="f9447137-39a7-4c63-b142-495db196c199" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABhSURBVEhL7ZKxDcAgDASzReQBEPOE/XcxeupvksBD8Zau5E4yvu6I3IHDMhyWQcOl1nxa+w08zA9oGI9mDDzMD84KK3B44Kv+Oq/D21atwOEB/mfGwMP84Kywr3oFDouI7CpBf1QrooUiAAAAAElFTkSuQmCC" InformativeScreenshot="b9131f9072b546c1d8361db51741dffa.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Globant Enterprise AI' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" />
+                                                      <uix:TargetAnchorable BrowserURL="gmx.saia.ai/chat" DesignTimeRectangle="13, 160, 24, 24" ElementVisibilityArgument="Interactive" Guid="6db53639-3f04-4975-a83e-b97eb69bdc27" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABPSURBVEhLYxCXlPxPSzxqAUE8zCxQVVf/HxgURDEGmYPVApAkNQDInIGxgBZ4mFkwmopgAKcFNA8iWuBhZgEo/KgBQOYMjAWjqQgTS/4HAAqrLQUX82IAAAAAAElFTkSuQmCC" InformativeScreenshot="e7ef4513748852b197e1dc7155d97e82.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Globant Enterprise AI' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" />
                                                     </uix:NClick.Target>
                                                   </uix:NClick>
                                                   <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="7" DisplayName="Click 'New conversation'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_209" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="12b9d1f1-c4bc-41eb-b126-a77553bf802f" Timeout="2" Version="V5">
@@ -86218,9 +86218,9 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </ui:CommentOut>
-                                        <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SimulateType="{x:Null}" Activate="False" DelayBefore="1" DisplayName="Type Into 'CH-EDIT'" sap:VirtualizedContainerService.HintSize="486,188" sap2010:WorkflowViewState.IdRef="TypeInto_41" SendWindowMessages="True" Text="Extraer Especificaciones">
+                                        <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SimulateType="{x:Null}" Activate="False" DelayBefore="1" DelayMS="1" DisplayName="Type Into 'CH-EDIT'" sap:VirtualizedContainerService.HintSize="486,188" sap2010:WorkflowViewState.IdRef="TypeInto_41" SendWindowMessages="True" Text="Extraer Especificaciones">
                                           <ui:TypeInto.Target>
-                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="00937342-0736-48df-9751-509c5f346e2d" InformativeScreenshot="0fba8f0ef5866c52c8868d89f4e47c61" Selector="&lt;webctrl tag='GX-EAI-HOME' /&gt;&lt;webctrl shadowhostid='' tag='CH-FLEXIBLE-LAYOUT-RENDER' /&gt;&lt;webctrl shadowhostid='' tag='GX-EAI-NEW-CHAT' /&gt;&lt;webctrl shadowhostid='' tag='CH-EDIT' /&gt;">
+                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="00937342-0736-48df-9751-509c5f346e2d" InformativeScreenshot="6599625f10c7ac79be09216f38bd37cb" Selector="&lt;webctrl tag='GX-EAI-HOME' /&gt;&lt;webctrl shadowhostid='' tag='CH-FLEXIBLE-LAYOUT-RENDER' /&gt;&lt;webctrl shadowhostid='' tag='GX-EAI-NEW-CHAT' /&gt;&lt;webctrl shadowhostid='' tag='CH-EDIT' /&gt;">
                                               <ui:Target.TimeoutMS>
                                                 <InArgument x:TypeArguments="x:Int32" />
                                               </ui:Target.TimeoutMS>
@@ -86468,7 +86468,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NApplicationCard>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="730,48" sap2010:WorkflowViewState.IdRef="CommentOut_321">
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="764,48" sap2010:WorkflowViewState.IdRef="CommentOut_321">
               <ui:CommentOut.Body>
                 <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_3545">
                   <sap:WorkflowViewStateService.ViewState>
@@ -86541,7 +86541,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
           </Sequence>
-          <Sequence DisplayName="conversion a archivos excel" sap:VirtualizedContainerService.HintSize="764,57" sap2010:WorkflowViewState.IdRef="Sequence_3531">
+          <Sequence DisplayName="conversion a archivos excel" sap:VirtualizedContainerService.HintSize="798,57" sap2010:WorkflowViewState.IdRef="Sequence_3531">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="bln" />
               <Variable x:TypeArguments="x:Int32" Name="cont" />
@@ -87446,7 +87446,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </uix:NApplicationCard>
           </Sequence>
-          <Sequence DisplayName="IDC" sap:VirtualizedContainerService.HintSize="764,57" sap2010:WorkflowViewState.IdRef="Sequence_3529">
+          <Sequence DisplayName="IDC" sap:VirtualizedContainerService.HintSize="798,57" sap2010:WorkflowViewState.IdRef="Sequence_3529">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="RutaGenerales_Str" />
               <Variable x:TypeArguments="x:String" Name="RutaEspecificaciones_Str" />
@@ -87654,7 +87654,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEachRow>
           </Sequence>
-          <Sequence sap2010:Annotation.AnnotationText="Llena la tabla io_Datos_tbl" DisplayName="1.4.1.1) Extraer Datos Generaes del Certificado PDF" sap:VirtualizedContainerService.HintSize="764,88" sap2010:WorkflowViewState.IdRef="Sequence_2676">
+          <Sequence sap2010:Annotation.AnnotationText="Llena la tabla io_Datos_tbl" DisplayName="1.4.1.1) Extraer Datos Generaes del Certificado PDF" sap:VirtualizedContainerService.HintSize="798,88" sap2010:WorkflowViewState.IdRef="Sequence_2676">
             <Sequence.Variables>
               <Variable x:TypeArguments="s:String[]" Name="ArrayString_lst" />
               <Variable x:TypeArguments="x:String" Name="Folio_str" />
@@ -94777,7 +94777,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </ui:InvokeWorkflowFile>
           </Sequence>
-          <Sequence sap2010:Annotation.AnnotationText="Llena la tabla io_Especificaciones_tbl" DisplayName="1.4.1.2) Extraer Especificaciones  del Certificado PDF" sap:VirtualizedContainerService.HintSize="764,1441" sap2010:WorkflowViewState.IdRef="Sequence_2719">
+          <Sequence sap2010:Annotation.AnnotationText="Llena la tabla io_Especificaciones_tbl" DisplayName="1.4.1.2) Extraer Especificaciones  del Certificado PDF" sap:VirtualizedContainerService.HintSize="798,1441" sap2010:WorkflowViewState.IdRef="Sequence_2719">
             <Sequence.Variables>
               <Variable x:TypeArguments="s:String[]" Name="ArrayString_lst" />
               <Variable x:TypeArguments="x:String" Name="Folio_str" />
